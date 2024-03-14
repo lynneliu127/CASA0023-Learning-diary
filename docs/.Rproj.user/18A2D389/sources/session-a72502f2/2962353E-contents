@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: E:/CASA0023Remote sense/CASA0023-Learning-diary/docs
 
 book:
   title: "Diary"
-  author: "Norah Jones"
+  author: "Yuqing Liu"
   date: "2024/3/13"
   chapters:
     - index.qmd
