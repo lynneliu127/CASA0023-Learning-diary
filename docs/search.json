@@ -4,9 +4,149 @@
     "href": "index.html",
     "title": "Diary",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Preface",
     "crumbs": [
       "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#this-is-a-quarto-book.",
+    "href": "index.html#this-is-a-quarto-book.",
+    "title": "Diary",
+    "section": "This is a Quarto book.",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "index.html#this-is-a-yuqing-remote-sense-learning-diary.",
+    "href": "index.html#this-is-a-yuqing-remote-sense-learning-diary.",
+    "title": "Diary",
+    "section": "This is a Yuqing remote sense learning diary.",
+    "text": "This is a Yuqing remote sense learning diary.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "week9.html",
+    "href": "week9.html",
+    "title": "11  Week9-SAR or Temperature",
+    "section": "",
+    "text": "12 SAR or Temperature",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Week9-SAR or Temperature</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html",
+    "href": "week1.html",
+    "title": "3  Week1-Intro to remote sensing",
+    "section": "",
+    "text": "4 Intro to remote sensing",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week1-Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week8.html",
+    "href": "week8.html",
+    "title": "10  Week8-Classification II",
+    "section": "",
+    "text": "11 Classification II",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Week8-Classification II</span>"
+    ]
+  },
+  {
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "9  Week7-Classification I",
+    "section": "",
+    "text": "10 Classification I",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Week7-Classification I</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html",
+    "href": "week6.html",
+    "title": "8  Week6-Intro to GEE",
+    "section": "",
+    "text": "9 Intro to GEE",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Week6-Intro to GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week5.html",
+    "href": "week5.html",
+    "title": "7  Week5-Reading & Practice",
+    "section": "",
+    "text": "8 Reading & Practice",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Week5-Reading & Practice</span>"
+    ]
+  },
+  {
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "6  Week4-Policy",
+    "section": "",
+    "text": "7 Policy",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Week4-Policy</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "5  Week3-Corrections",
+    "section": "",
+    "text": "6 Corrections",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Week3-Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "4  Week2-Function practice",
+    "section": "",
+    "text": "5 Function practice",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Week2-Function practice</span>"
     ]
   }
 ]
