@@ -1,14 +1,14 @@
 {
-    "id": "4F8D41C8",
-    "path": "E:/CASA0023Remote sense/CASA0023-Learning-diary/docs/week5.qmd",
-    "project_path": "week5.qmd",
+    "id": "DE4936BD",
+    "path": "E:/CASA0023Remote sense/CASA0023-Learning-diary/docs/week3.qmd",
+    "project_path": "week3.qmd",
     "type": "quarto_markdown",
-    "hash": "17862089",
+    "hash": "3419470848",
     "contents": "",
     "dirty": false,
-    "created": 1710465981001.0,
+    "created": 1710465665592.0,
     "source_on_save": true,
-    "relative_order": 9,
+    "relative_order": 7,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -19,14 +19,14 @@
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "15:0"
+        "rmdVisualModeLocation": "31:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1710466559,
+    "lastKnownWriteTime": 1710466988,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1710466559777,
+    "last_content_update": 1710466988105,
     "read_only": false,
     "read_only_alternatives": []
 }
