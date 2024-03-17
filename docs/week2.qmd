@@ -1,5 +1,11 @@
----
-title: "Week2-Function practice"
----
-
 # Function practice
+
+## Xaringan
+
+The content for week 2 is a presentation in Xaringan on **the Ikonos-2 satellite**. The presentation is below, and the summary, application and reflection are all included in the slides.
+
+**the Sentinel 1 mission**
+
+```{r xaringan_embed, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://lynneliu127.github.io/CASA0023sensor/", ratio = "4:3")
+```

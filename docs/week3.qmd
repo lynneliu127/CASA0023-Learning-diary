@@ -1,5 +1,23 @@
----
-title: "Week3-Corrections"
----
+# Corrections 
 
-# Corrections
+## Overview
+
+-   Knowledge Review
+-   Practice
+-   Reflection
+
+## Knowledge Review
+### Mind map
+
+```{r, echo=FALSE, out.width="50%", fig.align='middle'}
+knitr::include_graphics('week2/mind map.png')
+```
+
+### Geometric corrections
+
+
+### Atmospheric corrections
+
+### Orthorectification / Topographic correction
+
+### Radiometric corrections

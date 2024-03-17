@@ -1,9 +1,14 @@
-# Preface {.unnumbered}
+# About {.unnumbered}
 
-## This is a Yuqing remote sense learning diary.
+**Yuqing Liu** [^1]
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+[^1]: UCL The Bartlett Centre for Advanced Spatial Analysis, MSc Urban spatial science, [GitHub](https://github.com/lynneliu127?tab=repositories)
+
+#  {.unnumbered}
+
+## introduction
 
 ```{r}
-1 + 1
 ```
+
+Last updated: `r Sys.Date()`

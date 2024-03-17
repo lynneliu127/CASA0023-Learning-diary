@@ -2,11 +2,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Diary",
+    "title": "Remote Sensing Learning Diary",
     "section": "",
-    "text": "Preface",
+    "text": "About\nYuqing Liu 1",
     "crumbs": [
-      "Preface"
+      "About"
     ]
   },
   {
@@ -72,11 +72,11 @@
   {
     "objectID": "week1.html",
     "href": "week1.html",
-    "title": "1  Week1-Intro to remote sensing",
+    "title": "2  Intro to remote sensing",
     "section": "",
-    "text": "2 Intro to remote sensing",
+    "text": "3 Intro to remote sensing",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week1-Intro to remote sensing</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Intro to remote sensing</span>"
     ]
   },
   {
@@ -132,21 +132,201 @@
   {
     "objectID": "week3.html",
     "href": "week3.html",
-    "title": "3  Week3-Corrections",
+    "title": "3  Corrections",
     "section": "",
-    "text": "4 Corrections",
+    "text": "3.1 Overview",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Week3-Corrections</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
     ]
   },
   {
     "objectID": "week2.html",
     "href": "week2.html",
-    "title": "2  Week2-Function practice",
+    "title": "2  Function practice",
     "section": "",
-    "text": "3 Function practice",
+    "text": "2.1 Xaringan\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides.\nthe Sentinel 1 mission",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week2-Function practice</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Function practice</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Remote Sensing Learning Diary",
+    "section": "",
+    "text": "UCL The Bartlett Centre for Advanced Spatial Analysis, MSc Urban spatial science, GitHub↩︎",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "week1.html#overview",
+    "href": "week1.html#overview",
+    "title": "1  Intro to remote sensing",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\n\nKnowledge Review\nPractice\nReflection",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#知识回顾",
+    "href": "week1.html#知识回顾",
+    "title": "1 Intro to remote sensing",
+    "section": "1.2 知识回顾",
+    "text": "1.2 知识回顾\n\nWhat is Remote Sensing?\n\n\nKey defination\n\n\n比较\n光谱特征\nLandsat 和 Sentinel 数据之间的差异",
+    "crumbs": [
+      "1 Intro to remote sensing"
+    ]
+  },
+  {
+    "objectID": "week1.html#what-is-remote-sensing",
+    "href": "week1.html#what-is-remote-sensing",
+    "title": "1  Intro to remote sensing",
+    "section": "What is Remote Sensing?",
+    "text": "What is Remote Sensing?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#key-defination",
+    "href": "week1.html#key-defination",
+    "title": "1  Intro to remote sensing",
+    "section": "Key defination",
+    "text": "Key defination",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#application",
+    "href": "week1.html#application",
+    "title": "1 Intro to remote sensing",
+    "section": "1.3 Application",
+    "text": "1.3 Application",
+    "crumbs": [
+      "1 Intro to remote sensing"
+    ]
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Remote Sensing Learning Diary",
+    "section": "introduction",
+    "text": "introduction\nLast updated: 2024-03-17",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "week1.html#比较",
+    "href": "week1.html#比较",
+    "title": "1  Intro to remote sensing",
+    "section": "1.1 比较",
+    "text": "1.1 比较\n光谱特征\nLandsat 和 Sentinel 数据之间的差异",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#进行基本的光栅图像统计和处理",
+    "href": "week1.html#进行基本的光栅图像统计和处理",
+    "title": "1  Intro to remote sensing",
+    "section": "4.1 进行基本的光栅图像统计和处理",
+    "text": "4.1 进行基本的光栅图像统计和处理",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#评估您使用的每种软件的缺点优势",
+    "href": "week1.html#评估您使用的每种软件的缺点优势",
+    "title": "1  Intro to remote sensing",
+    "section": "4.2 评估您使用的每种软件的（缺点）优势",
+    "text": "4.2 评估您使用的每种软件的（缺点）优势",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#练习",
+    "href": "week1.html#练习",
+    "title": "1 Intro to remote sensing",
+    "section": "1.4 练习",
+    "text": "1.4 练习",
+    "crumbs": [
+      "1 Intro to remote sensing"
+    ]
+  },
+  {
+    "objectID": "week1.html#reflection",
+    "href": "week1.html#reflection",
+    "title": "1  Intro to remote sensing",
+    "section": "1.4 Reflection",
+    "text": "1.4 Reflection\n\n1.4.1 Raster image statistics and processing\n\n\n1.4.2 Assessing strengths and weaknesses",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#knowledge-review",
+    "href": "week1.html#knowledge-review",
+    "title": "1  Intro to remote sensing",
+    "section": "1.2 Knowledge Review",
+    "text": "1.2 Knowledge Review\n\n1.2.1 Mind map\n\n\n\n\n\n\n\n\n\n\n\n1.2.2 What is Remote Sensing?\n\n\n\n\n\n\n\n\n\nRemote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet.\n\n\n1.2.3 Satellite remote sensing\n\n1.2.3.1 Landsat data\nSatellites and sensors: The newest is Landsat 9, launched in 2021, and its predecessors include a series of successful satellites such as Landsat 7 and Landsat 8.\nImage resolution: Landsat 8 and Landsat 9’s Operational Land Imager (OLI) and Thermal Infrared Sensor (TIRS) provide 30 metre multispectral resolution, 15 metre panchromatic resolution, and 100 metre thermal infrared resolution.\nRevisit Cycle: Every 16 days for complete coverage of the Earth’s surface.\nData Availability: The Landsat project provides decades-long archived data, essential for scientific research and environmental monitoring.\n\n\n1.2.3.2 Sentinel Data\nSatellites and sensors: Includes multiple satellites such as Sentinel-1 (carrying Synthetic Aperture Radar, SAR), Sentinel-2 (carrying Multispectral Instrument) and several other satellites focussed on different missions.\nImage resolution: Sentinel-2 provides multispectral data at 10, 20 and 60 metres resolution, superior to most Landsat data.\nRevisit Cycle: Sentinel-2A and 2B can revisit the globe every 5 days, much faster than Landsat’s revisit cycle.\nData Availability: Sentinel data are available in real-time since launch, are easily accessible, and support near real-time applications.\n\n\n\n1.2.4 Spectral features\n\nVisible bands: Usually include blue, green and red bands, which are used to capture the colour and reflective properties of the ground surface and are commonly used for vegetation monitoring, land cover classification, etc.\nNear infrared (NIR) band: Vegetation has high reflectance in this band and is commonly used for vegetation health assessment, vegetation type differentiation, etc.\nShort-wave infrared band: Provides information on moisture status, vegetation type and fire scars.\nThermal infrared: mainly used for measuring surface temperature, thermal characterisation, and monitoring environmental moisture and drought conditions.\nMid-infrared band: helps to differentiate between different rock and soil types and can also be used to detect the presence of snow, ice and clouds.\n\n\n\n\n\n\nSpectral signatures of different Earth features within the visible light spectrum. Credit: Jeannie Allen.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week1.html#practice",
+    "href": "week1.html#practice",
+    "title": "1  Intro to remote sensing",
+    "section": "1.3 Practice",
+    "text": "1.3 Practice",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
+    ]
+  },
+  {
+    "objectID": "week2.html#overview",
+    "href": "week2.html#overview",
+    "title": "2 Function practice",
+    "section": "",
+    "text": "Knowledge Review\nPractice\nReflection",
+    "crumbs": [
+      "2 Function practice"
+    ]
+  },
+  {
+    "objectID": "week2.html#knowledge-review",
+    "href": "week2.html#knowledge-review",
+    "title": "2 Function practice",
+    "section": "2.2 Knowledge Review",
+    "text": "2.2 Knowledge Review\n\nMind map",
+    "crumbs": [
+      "2 Function practice"
+    ]
+  },
+  {
+    "objectID": "week3.html#overview",
+    "href": "week3.html#overview",
+    "title": "3  Corrections",
+    "section": "",
+    "text": "Knowledge Review\nPractice\nReflection",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#knowledge-review",
+    "href": "week3.html#knowledge-review",
+    "title": "3  Corrections",
+    "section": "3.2 Knowledge Review",
+    "text": "3.2 Knowledge Review\n\n3.2.1 Mind map\n\n\n\n\n\n\n\n\n\n\n\n3.2.2 Geometric corrections\n\n\n3.2.3 Atmospheric corrections\n\n\n3.2.4 Orthorectification / Topographic correction\n\n\n3.2.5 Radiometric corrections",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
     ]
   }
 ]

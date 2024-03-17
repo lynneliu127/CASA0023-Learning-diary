@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diary - 1&nbsp; Week1-Intro to remote sensing</title>
+<title>Remote Sensing Learning Diary - 1&nbsp; Intro to remote sensing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./week2.html" rel="next">
 <link href="./index.html" rel="prev">
+<link href="./img/ucl.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,11 +43,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,102 +69,135 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(img/nasa_earth_grid.jpg);
+background-size: cover;
+      }
+</style>
 
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/casa_logo.jpg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span style="color: black;">Remote Sensing Learning Diary</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1-Intro to remote sensing</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro to remote sensing</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Diary</a> 
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro to remote sensing</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
     </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1-Intro to remote sensing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro to remote sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week2-Function practice</span></span></a>
+ <span class="menu-text">2 Function practice</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3-Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">3 Corrections</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4-Policy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week4-Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week5-Reading &amp; Practice</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week5-Reading &amp; Practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week6-Intro to GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week6-Intro to GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week7-Classification I</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7-Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week8-Classification II</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8-Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,39 +216,121 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#intro-to-remote-sensing" id="toc-intro-to-remote-sensing" class="nav-link active" data-scroll-target="#intro-to-remote-sensing"><span class="header-section-number">2</span> Intro to remote sensing</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1.1</span> Overview</a></li>
+  <li><a href="#knowledge-review" id="toc-knowledge-review" class="nav-link" data-scroll-target="#knowledge-review"><span class="header-section-number">1.2</span> Knowledge Review</a>
+  <ul class="collapse">
+  <li><a href="#mind-map" id="toc-mind-map" class="nav-link" data-scroll-target="#mind-map"><span class="header-section-number">1.2.1</span> Mind map</a></li>
+  <li><a href="#what-is-remote-sensing" id="toc-what-is-remote-sensing" class="nav-link" data-scroll-target="#what-is-remote-sensing"><span class="header-section-number">1.2.2</span> What is Remote Sensing?</a></li>
+  <li><a href="#satellite-remote-sensing" id="toc-satellite-remote-sensing" class="nav-link" data-scroll-target="#satellite-remote-sensing"><span class="header-section-number">1.2.3</span> Satellite remote sensing</a></li>
+  <li><a href="#spectral-features" id="toc-spectral-features" class="nav-link" data-scroll-target="#spectral-features"><span class="header-section-number">1.2.4</span> Spectral features</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">1.3</span> Practice</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.4</span> Reflection</a>
+  <ul class="collapse">
+  <li><a href="#raster-image-statistics-and-processing" id="toc-raster-image-statistics-and-processing" class="nav-link" data-scroll-target="#raster-image-statistics-and-processing"><span class="header-section-number">1.4.1</span> Raster image statistics and processing</a></li>
+  <li><a href="#assessing-strengths-and-weaknesses" id="toc-assessing-strengths-and-weaknesses" class="nav-link" data-scroll-target="#assessing-strengths-and-weaknesses"><span class="header-section-number">1.4.2</span> Assessing strengths and weaknesses</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1-Intro to remote sensing</span></h1>
+
+
+
+
+<div style="text-align: justify">
+
+<section id="overview" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1.1</span> Overview</h2>
+<ul>
+<li>Knowledge Review</li>
+<li>Practice</li>
+<li>Reflection</li>
+</ul>
+</section>
+<section id="knowledge-review" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="knowledge-review"><span class="header-section-number">1.2</span> Knowledge Review</h2>
+<section id="mind-map" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="mind-map"><span class="header-section-number">1.2.1</span> Mind map</h3>
+<div class="cell" data-layout-align="middle">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-middle">
+<figure class="figure">
+<p><img src="week1/mind map.png" class="img-fluid quarto-figure quarto-figure-middle figure-img" style="width:100.0%"></p>
+</figure>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="intro-to-remote-sensing" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Intro to remote sensing</h1>
+</div>
+</div>
+</section>
+<section id="what-is-remote-sensing" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.2.2</span> What is Remote Sensing?</h3>
+<div class="cell" data-layout-align="right">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="week1/Air-Quality-Transparent-Blue.gif" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:30.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Remote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet.</p>
+</section>
+<section id="satellite-remote-sensing" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="satellite-remote-sensing"><span class="header-section-number">1.2.3</span> Satellite remote sensing</h3>
+<section id="landsat-data" class="level4" data-number="1.2.3.1">
+<h4 data-number="1.2.3.1" class="anchored" data-anchor-id="landsat-data"><span class="header-section-number">1.2.3.1</span> <strong>Landsat data</strong></h4>
+<p><strong>Satellites and sensors:</strong> The newest is Landsat 9, launched in 2021, and its predecessors include a series of successful satellites such as Landsat 7 and Landsat 8.</p>
+<p><strong>Image resolution:</strong> Landsat 8 and Landsat 9’s Operational Land Imager (OLI) and Thermal Infrared Sensor (TIRS) provide 30 metre multispectral resolution, 15 metre panchromatic resolution, and 100 metre thermal infrared resolution.</p>
+<p><strong>Revisit Cycle:</strong> Every 16 days for complete coverage of the Earth’s surface.</p>
+<p><strong>Data Availability:</strong> The Landsat project provides <strong>decades-long archived data</strong>, essential for scientific research and environmental monitoring.</p>
+</section>
+<section id="sentinel-data" class="level4" data-number="1.2.3.2">
+<h4 data-number="1.2.3.2" class="anchored" data-anchor-id="sentinel-data"><span class="header-section-number">1.2.3.2</span> <strong>Sentinel Data</strong></h4>
+<p><strong>Satellites and sensors:</strong> Includes multiple satellites such as Sentinel-1 (carrying Synthetic Aperture Radar, SAR), Sentinel-2 (carrying Multispectral Instrument) and several other satellites focussed on different missions.</p>
+<p><strong>Image resolution:</strong> Sentinel-2 provides multispectral data at <strong>10, 20 and 60 metres</strong> resolution, superior to most Landsat data.</p>
+<p><strong>Revisit Cycle:</strong> Sentinel-2A and 2B can revisit the globe every 5 days, much faster than Landsat’s revisit cycle.</p>
+<p><strong>Data Availability:</strong> Sentinel data are available in real-time since launch, are easily accessible, and support near real-time applications.</p>
+</section>
+</section>
+<section id="spectral-features" class="level3" data-number="1.2.4">
+<h3 data-number="1.2.4" class="anchored" data-anchor-id="spectral-features"><span class="header-section-number">1.2.4</span> Spectral features</h3>
+<ul>
+<li><p><strong>Visible bands:</strong> Usually include blue, green and red bands, which are used to capture the colour and reflective properties of the ground surface and are commonly used for vegetation monitoring, land cover classification, etc.</p></li>
+<li><p><strong>Near infrared (NIR) band:</strong> Vegetation has high reflectance in this band and is commonly used for vegetation health assessment, vegetation type differentiation, etc.</p></li>
+<li><p><strong>Short-wave infrared band:</strong> Provides information on moisture status, vegetation type and fire scars.</p></li>
+<li><p><strong>Thermal infrared:</strong> mainly used for measuring surface temperature, thermal characterisation, and monitoring environmental moisture and drought conditions.</p></li>
+<li><p><strong>Mid-infrared band:</strong> helps to differentiate between different rock and soil types and can also be used to detect the presence of snow, ice and clouds.</p></li>
+</ul>
+<div class="cell" data-layout-align="right">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="week1/spectralfingerprints.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:100.0%"></p>
+<figcaption>Spectral signatures of different Earth features within the visible light spectrum. Credit: Jeannie Allen.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="practice" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="practice"><span class="header-section-number">1.3</span> Practice</h2>
+</section>
+<section id="reflection" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.4</span> Reflection</h2>
+<section id="raster-image-statistics-and-processing" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="raster-image-statistics-and-processing"><span class="header-section-number">1.4.1</span> Raster image statistics and processing</h3>
+</section>
+<section id="assessing-strengths-and-weaknesses" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="assessing-strengths-and-weaknesses"><span class="header-section-number">1.4.2</span> Assessing strengths and weaknesses</h3>
 
 
 </section>
+</section>
 
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -604,13 +720,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link  aria-label=" preface"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./index.html" class="pagination-link  aria-label=" about"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week2.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Week2-Function practice</span>">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week2-Function practice</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week2.html" class="pagination-link" aria-label="2 Function practice">
+        <span class="nav-page-text">2 Function practice</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -619,4 +735,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
