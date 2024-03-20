@@ -1,4 +1,4 @@
-# Corrections 
+# Corrections & Enhancements
 
 ## Overview
 
@@ -7,17 +7,29 @@
 -   Reflection
 
 ## Knowledge Review
+
 ### Mind map
 
-```{r, echo=FALSE, out.width="50%", fig.align='middle'}
+```{r, echo=FALSE, out.width="10%", fig.align='middle'}
 knitr::include_graphics('week2/mind map.png')
 ```
 
-### Geometric corrections
-
-
 ### Atmospheric corrections
 
-### Orthorectification / Topographic correction
+-   Empirical methods: **the DOS (Dark Object Subtraction) method**, which assumes that certain features in the image (e.g., deep bodies of water) should have very low reflectivity, uses these features to estimate the effect of atmospheric scattering, and corrects the entire image.
 
-### Radiometric corrections
+-   Physical model-based methods: MODTRAN (Moderate Resolution Atmospheric Transmission Code) or 6S (Second Simulated Satellite Signal) models, which use detailed information about atmospheric composition (e.g. water vapour, ozone, aerosols) to simulate how the atmosphere affects the light received by the sensor.
+
+-   Image-based methods: use information from the image itself to make atmospheric corrections.
+
+### Geometric corrections
+
+-   Ground Control Points (GCPs) method: Images are corrected using ground control points with known geographic coordinates.
+-   Automatic correction method: Geometric correction is performed automatically using satellite orbit data, sensor attitude data and digital elevation models (DEMs).
+-   Internal and external corrections: Internal corrections deal with aberrations in the sensor itself, such as lens aberrations.
+-   Orthorectification: Converts the image into an orthophoto, especially for distortions caused by terrain.
+
+## Practice
+
+### DOS02
+

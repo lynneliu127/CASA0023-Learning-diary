@@ -1,8 +1,8 @@
 # About {.unnumbered}
 
-**Yuqing Liu** [^1]
+**Yuqing Liu** [^index-1]
 
-[^1]: UCL The Bartlett Centre for Advanced Spatial Analysis, MSc Urban spatial science, [GitHub](https://github.com/lynneliu127?tab=repositories)
+[^index-1]: UCL The Bartlett Centre for Advanced Spatial Analysis, MSc Urban spatial science, [GitHub](https://github.com/lynneliu127?tab=repositories)
 
 #  {.unnumbered}
 

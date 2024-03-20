@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Remote Sensing Learning Diary - 3&nbsp; Corrections</title>
+<title>Remote Sensing Learning Diary - 3&nbsp; Corrections &amp; Enhancements</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -112,7 +112,7 @@ background-size: cover;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -122,7 +122,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections</span></h1>
+      <h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></h1>
                       </div>
   </div>
     
@@ -161,7 +161,7 @@ background-size: cover;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -220,10 +220,12 @@ background-size: cover;
   <li><a href="#knowledge-review" id="toc-knowledge-review" class="nav-link" data-scroll-target="#knowledge-review"><span class="header-section-number">3.2</span> Knowledge Review</a>
   <ul class="collapse">
   <li><a href="#mind-map" id="toc-mind-map" class="nav-link" data-scroll-target="#mind-map"><span class="header-section-number">3.2.1</span> Mind map</a></li>
-  <li><a href="#geometric-corrections" id="toc-geometric-corrections" class="nav-link" data-scroll-target="#geometric-corrections"><span class="header-section-number">3.2.2</span> Geometric corrections</a></li>
-  <li><a href="#atmospheric-corrections" id="toc-atmospheric-corrections" class="nav-link" data-scroll-target="#atmospheric-corrections"><span class="header-section-number">3.2.3</span> Atmospheric corrections</a></li>
-  <li><a href="#orthorectification-topographic-correction" id="toc-orthorectification-topographic-correction" class="nav-link" data-scroll-target="#orthorectification-topographic-correction"><span class="header-section-number">3.2.4</span> Orthorectification / Topographic correction</a></li>
-  <li><a href="#radiometric-corrections" id="toc-radiometric-corrections" class="nav-link" data-scroll-target="#radiometric-corrections"><span class="header-section-number">3.2.5</span> Radiometric corrections</a></li>
+  <li><a href="#atmospheric-corrections" id="toc-atmospheric-corrections" class="nav-link" data-scroll-target="#atmospheric-corrections"><span class="header-section-number">3.2.2</span> Atmospheric corrections</a></li>
+  <li><a href="#geometric-corrections" id="toc-geometric-corrections" class="nav-link" data-scroll-target="#geometric-corrections"><span class="header-section-number">3.2.3</span> Geometric corrections</a></li>
+  </ul></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">3.3</span> Practice</a>
+  <ul class="collapse">
+  <li><a href="#dos02" id="toc-dos02" class="nav-link" data-scroll-target="#dos02"><span class="header-section-number">3.3.1</span> DOS02</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
@@ -251,23 +253,34 @@ background-size: cover;
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-middle">
 <figure class="figure">
-<p><img src="week2/mind map.png" class="img-fluid quarto-figure quarto-figure-middle figure-img" style="width:50.0%"></p>
+<p><img src="week2/mind map.png" class="img-fluid quarto-figure quarto-figure-middle figure-img" style="width:10.0%"></p>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="geometric-corrections" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="geometric-corrections"><span class="header-section-number">3.2.2</span> Geometric corrections</h3>
+<section id="atmospheric-corrections" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="atmospheric-corrections"><span class="header-section-number">3.2.2</span> Atmospheric corrections</h3>
+<ul>
+<li><p>Empirical methods: <strong>the DOS (Dark Object Subtraction) method</strong>, which assumes that certain features in the image (e.g., deep bodies of water) should have very low reflectivity, uses these features to estimate the effect of atmospheric scattering, and corrects the entire image.</p></li>
+<li><p>Physical model-based methods: MODTRAN (Moderate Resolution Atmospheric Transmission Code) or 6S (Second Simulated Satellite Signal) models, which use detailed information about atmospheric composition (e.g.&nbsp;water vapour, ozone, aerosols) to simulate how the atmosphere affects the light received by the sensor.</p></li>
+<li><p>Image-based methods: use information from the image itself to make atmospheric corrections.</p></li>
+</ul>
 </section>
-<section id="atmospheric-corrections" class="level3" data-number="3.2.3">
-<h3 data-number="3.2.3" class="anchored" data-anchor-id="atmospheric-corrections"><span class="header-section-number">3.2.3</span> Atmospheric corrections</h3>
+<section id="geometric-corrections" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="geometric-corrections"><span class="header-section-number">3.2.3</span> Geometric corrections</h3>
+<ul>
+<li>Ground Control Points (GCPs) method: Images are corrected using ground control points with known geographic coordinates.</li>
+<li>Automatic correction method: Geometric correction is performed automatically using satellite orbit data, sensor attitude data and digital elevation models (DEMs).</li>
+<li>Internal and external corrections: Internal corrections deal with aberrations in the sensor itself, such as lens aberrations.</li>
+<li>Orthorectification: Converts the image into an orthophoto, especially for distortions caused by terrain.</li>
+</ul>
 </section>
-<section id="orthorectification-topographic-correction" class="level3" data-number="3.2.4">
-<h3 data-number="3.2.4" class="anchored" data-anchor-id="orthorectification-topographic-correction"><span class="header-section-number">3.2.4</span> Orthorectification / Topographic correction</h3>
 </section>
-<section id="radiometric-corrections" class="level3" data-number="3.2.5">
-<h3 data-number="3.2.5" class="anchored" data-anchor-id="radiometric-corrections"><span class="header-section-number">3.2.5</span> Radiometric corrections</h3>
+<section id="practice" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="practice"><span class="header-section-number">3.3</span> Practice</h2>
+<section id="dos02" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="dos02"><span class="header-section-number">3.3.1</span> DOS02</h3>
 
 
 </section>

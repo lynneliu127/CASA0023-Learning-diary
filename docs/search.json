@@ -132,11 +132,11 @@
   {
     "objectID": "week3.html",
     "href": "week3.html",
-    "title": "3  Corrections",
+    "title": "3  Corrections & Enhancements",
     "section": "",
     "text": "3.1 Overview",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections & Enhancements</span>"
     ]
   },
   {
@@ -144,7 +144,7 @@
     "href": "week2.html",
     "title": "2  Function practice",
     "section": "",
-    "text": "2.1 Xaringan\nThe content for week 2 is a presentation in Xaringan on the Ikonos-2 satellite. The presentation is below, and the summary, application and reflection are all included in the slides.\nthe Sentinel 1 mission",
+    "text": "2.1 Xaringan\nThe content for week 2 is a presentation in Xaringan on Metop.\nGithub link",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Function practice</span>"
     ]
@@ -214,7 +214,7 @@
     "href": "index.html#introduction",
     "title": "Remote Sensing Learning Diary",
     "section": "introduction",
-    "text": "introduction\nLast updated: 2024-03-17",
+    "text": "introduction\nLast updated: 2024-03-18",
     "crumbs": [
       "About"
     ]
@@ -312,21 +312,31 @@
   {
     "objectID": "week3.html#overview",
     "href": "week3.html#overview",
-    "title": "3  Corrections",
+    "title": "3  Corrections & Enhancements",
     "section": "",
     "text": "Knowledge Review\nPractice\nReflection",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections & Enhancements</span>"
     ]
   },
   {
     "objectID": "week3.html#knowledge-review",
     "href": "week3.html#knowledge-review",
-    "title": "3  Corrections",
+    "title": "3  Corrections & Enhancements",
     "section": "3.2 Knowledge Review",
-    "text": "3.2 Knowledge Review\n\n3.2.1 Mind map\n\n\n\n\n\n\n\n\n\n\n\n3.2.2 Geometric corrections\n\n\n3.2.3 Atmospheric corrections\n\n\n3.2.4 Orthorectification / Topographic correction\n\n\n3.2.5 Radiometric corrections",
+    "text": "3.2 Knowledge Review\n\n3.2.1 Mind map\n\n\n\n\n\n\n\n\n\n\n\n3.2.2 Atmospheric corrections\n\nEmpirical methods: the DOS (Dark Object Subtraction) method, which assumes that certain features in the image (e.g., deep bodies of water) should have very low reflectivity, uses these features to estimate the effect of atmospheric scattering, and corrects the entire image.\nPhysical model-based methods: MODTRAN (Moderate Resolution Atmospheric Transmission Code) or 6S (Second Simulated Satellite Signal) models, which use detailed information about atmospheric composition (e.g. water vapour, ozone, aerosols) to simulate how the atmosphere affects the light received by the sensor.\nImage-based methods: use information from the image itself to make atmospheric corrections.\n\n\n\n3.2.3 Geometric corrections\n\nGround Control Points (GCPs) method: Images are corrected using ground control points with known geographic coordinates.\nAutomatic correction method: Geometric correction is performed automatically using satellite orbit data, sensor attitude data and digital elevation models (DEMs).\nInternal and external corrections: Internal corrections deal with aberrations in the sensor itself, such as lens aberrations.\nOrthorectification: Converts the image into an orthophoto, especially for distortions caused by terrain.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections & Enhancements</span>"
+    ]
+  },
+  {
+    "objectID": "week3.html#practice",
+    "href": "week3.html#practice",
+    "title": "3  Corrections & Enhancements",
+    "section": "3.3 Practice",
+    "text": "3.3 Practice\n\n3.3.1 DOS02",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections & Enhancements</span>"
     ]
   }
 ]
