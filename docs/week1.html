@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -155,49 +175,43 @@ background-size: cover;
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2 Function practice</span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Function practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">3 Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week4-Policy</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week5-Reading &amp; Practice</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week6-Intro to GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Intro to GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7-Classification I</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8-Classification II</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SAR or Temperature</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -216,20 +230,16 @@ background-size: cover;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1.1</span> Overview</a></li>
-  <li><a href="#knowledge-review" id="toc-knowledge-review" class="nav-link" data-scroll-target="#knowledge-review"><span class="header-section-number">1.2</span> Knowledge Review</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#knowledge-review" id="toc-knowledge-review" class="nav-link" data-scroll-target="#knowledge-review"><span class="header-section-number">1.1</span> Knowledge Review</a>
   <ul class="collapse">
-  <li><a href="#mind-map" id="toc-mind-map" class="nav-link" data-scroll-target="#mind-map"><span class="header-section-number">1.2.1</span> Mind map</a></li>
-  <li><a href="#what-is-remote-sensing" id="toc-what-is-remote-sensing" class="nav-link" data-scroll-target="#what-is-remote-sensing"><span class="header-section-number">1.2.2</span> What is Remote Sensing?</a></li>
-  <li><a href="#satellite-remote-sensing" id="toc-satellite-remote-sensing" class="nav-link" data-scroll-target="#satellite-remote-sensing"><span class="header-section-number">1.2.3</span> Satellite remote sensing</a></li>
-  <li><a href="#spectral-features" id="toc-spectral-features" class="nav-link" data-scroll-target="#spectral-features"><span class="header-section-number">1.2.4</span> Spectral features</a></li>
+  <li><a href="#mind-map" id="toc-mind-map" class="nav-link" data-scroll-target="#mind-map"><span class="header-section-number">1.1.1</span> Mind map</a></li>
+  <li><a href="#what-is-remote-sensing" id="toc-what-is-remote-sensing" class="nav-link" data-scroll-target="#what-is-remote-sensing"><span class="header-section-number">1.1.2</span> What is Remote Sensing?</a></li>
+  <li><a href="#satellite" id="toc-satellite" class="nav-link" data-scroll-target="#satellite"><span class="header-section-number">1.1.3</span> Satellite</a></li>
+  <li><a href="#spectral-features" id="toc-spectral-features" class="nav-link" data-scroll-target="#spectral-features"><span class="header-section-number">1.1.4</span> Spectral features</a></li>
   </ul></li>
-  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">1.3</span> Practice</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.4</span> Reflection</a>
-  <ul class="collapse">
-  <li><a href="#raster-image-statistics-and-processing" id="toc-raster-image-statistics-and-processing" class="nav-link" data-scroll-target="#raster-image-statistics-and-processing"><span class="header-section-number">1.4.1</span> Raster image statistics and processing</a></li>
-  <li><a href="#assessing-strengths-and-weaknesses" id="toc-assessing-strengths-and-weaknesses" class="nav-link" data-scroll-target="#assessing-strengths-and-weaknesses"><span class="header-section-number">1.4.2</span> Assessing strengths and weaknesses</a></li>
-  </ul></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">1.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.3</span> Reflection</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -242,92 +252,132 @@ background-size: cover;
 
 <div style="text-align: justify">
 
-<section id="overview" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1.1</span> Overview</h2>
+<section id="overview" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="overview">Overview</h2>
 <ul>
 <li>Knowledge Review</li>
 <li>Practice</li>
 <li>Reflection</li>
 </ul>
 </section>
-<section id="knowledge-review" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="knowledge-review"><span class="header-section-number">1.2</span> Knowledge Review</h2>
-<section id="mind-map" class="level3" data-number="1.2.1">
-<h3 data-number="1.2.1" class="anchored" data-anchor-id="mind-map"><span class="header-section-number">1.2.1</span> Mind map</h3>
-<div class="cell" data-layout-align="middle">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-middle">
+<section id="knowledge-review" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="knowledge-review"><span class="header-section-number">1.1</span> Knowledge Review</h2>
+<section id="mind-map" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="mind-map"><span class="header-section-number">1.1.1</span> Mind map</h3>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="week1/mind map.png" class="img-fluid quarto-figure quarto-figure-middle figure-img" style="width:100.0%"></p>
+<p><img src="week1/mind map.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
 </figure>
 </div>
+</section>
+<section id="what-is-remote-sensing" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.1.2</span> What is Remote Sensing?</h3>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+<div style="flex-grow: 1;">
+<p>Remote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet (<a href="https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing">NASA</a>).</p>
 </div>
+<p><img src="week1/Air-Quality-Transparent-Blue.gif" style="width: 200px; margin-left: 20px;"></p>
 </div>
 </section>
-<section id="what-is-remote-sensing" class="level3" data-number="1.2.2">
-<h3 data-number="1.2.2" class="anchored" data-anchor-id="what-is-remote-sensing"><span class="header-section-number">1.2.2</span> What is Remote Sensing?</h3>
-<div class="cell" data-layout-align="right">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="week1/Air-Quality-Transparent-Blue.gif" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:30.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Remote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet.</p>
-</section>
-<section id="satellite-remote-sensing" class="level3" data-number="1.2.3">
-<h3 data-number="1.2.3" class="anchored" data-anchor-id="satellite-remote-sensing"><span class="header-section-number">1.2.3</span> Satellite remote sensing</h3>
-<section id="landsat-data" class="level4" data-number="1.2.3.1">
-<h4 data-number="1.2.3.1" class="anchored" data-anchor-id="landsat-data"><span class="header-section-number">1.2.3.1</span> <strong>Landsat data</strong></h4>
+<section id="satellite" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="satellite"><span class="header-section-number">1.1.3</span> Satellite</h3>
+<section id="landsat-data" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="landsat-data"><strong>Landsat data</strong></h4>
 <p><strong>Satellites and sensors:</strong> The newest is Landsat 9, launched in 2021, and its predecessors include a series of successful satellites such as Landsat 7 and Landsat 8.</p>
 <p><strong>Image resolution:</strong> Landsat 8 and Landsat 9’s Operational Land Imager (OLI) and Thermal Infrared Sensor (TIRS) provide 30 metre multispectral resolution, 15 metre panchromatic resolution, and 100 metre thermal infrared resolution.</p>
 <p><strong>Revisit Cycle:</strong> Every 16 days for complete coverage of the Earth’s surface.</p>
 <p><strong>Data Availability:</strong> The Landsat project provides <strong>decades-long archived data</strong>, essential for scientific research and environmental monitoring.</p>
 </section>
-<section id="sentinel-data" class="level4" data-number="1.2.3.2">
-<h4 data-number="1.2.3.2" class="anchored" data-anchor-id="sentinel-data"><span class="header-section-number">1.2.3.2</span> <strong>Sentinel Data</strong></h4>
+<section id="sentinel-data" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="sentinel-data"><strong>Sentinel Data</strong></h4>
 <p><strong>Satellites and sensors:</strong> Includes multiple satellites such as Sentinel-1 (carrying Synthetic Aperture Radar, SAR), Sentinel-2 (carrying Multispectral Instrument) and several other satellites focussed on different missions.</p>
 <p><strong>Image resolution:</strong> Sentinel-2 provides multispectral data at <strong>10, 20 and 60 metres</strong> resolution, superior to most Landsat data.</p>
 <p><strong>Revisit Cycle:</strong> Sentinel-2A and 2B can revisit the globe every 5 days, much faster than Landsat’s revisit cycle.</p>
 <p><strong>Data Availability:</strong> Sentinel data are available in real-time since launch, are easily accessible, and support near real-time applications.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week1/table_comparison-1 (1).png" class="img-fluid figure-img"></p>
+<figcaption>Sentinel-2 (left) and Landsat-8 (right) band comparisons</figcaption>
+</figure>
+</div>
+<p>Band resolution between Sentinel (<a href="https://gisgeography.com/sentinel-2-bands-combinations/">Table 1 - left</a>) and Landsat (<a href="https://www.usgs.gov/faqs/what-are-band-designations-landsat-satellites#:~:text=Landsat%204%2D5%20Thematic%20Mapper,106%20mi%20by%20114%20mi">Table 2 - right</a>).</p>
 </section>
 </section>
-<section id="spectral-features" class="level3" data-number="1.2.4">
-<h3 data-number="1.2.4" class="anchored" data-anchor-id="spectral-features"><span class="header-section-number">1.2.4</span> Spectral features</h3>
+<section id="spectral-features" class="level3" data-number="1.1.4">
+<h3 data-number="1.1.4" class="anchored" data-anchor-id="spectral-features"><span class="header-section-number">1.1.4</span> Spectral features</h3>
 <ul>
 <li><p><strong>Visible bands:</strong> Usually include blue, green and red bands, which are used to capture the colour and reflective properties of the ground surface and are commonly used for vegetation monitoring, land cover classification, etc.</p></li>
 <li><p><strong>Near infrared (NIR) band:</strong> Vegetation has high reflectance in this band and is commonly used for vegetation health assessment, vegetation type differentiation, etc.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week1/spectralfingerprints.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figcaption>Spectral fingerprints</figcaption>
+</figure>
+</div>
+<ul>
 <li><p><strong>Short-wave infrared band:</strong> Provides information on moisture status, vegetation type and fire scars.</p></li>
 <li><p><strong>Thermal infrared:</strong> mainly used for measuring surface temperature, thermal characterisation, and monitoring environmental moisture and drought conditions.</p></li>
 <li><p><strong>Mid-infrared band:</strong> helps to differentiate between different rock and soil types and can also be used to detect the presence of snow, ice and clouds.</p></li>
 </ul>
-<div class="cell" data-layout-align="right">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="week1/spectralfingerprints.jpg" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:100.0%"></p>
-<figcaption>Spectral signatures of different Earth features within the visible light spectrum. Credit: Jeannie Allen.</figcaption>
-</figure>
-</div>
-</div>
-</div>
 </section>
 </section>
-<section id="practice" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="practice"><span class="header-section-number">1.3</span> Practice</h2>
+<section id="application" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="application"><span class="header-section-number">1.2</span> Application</h2>
+<p>Remote sensing technology has evolved to be widely used in a variety of fields. As urban planners, we usually use remote sensing data to monitor urban sprawl <span class="citation" data-cites="bhatta2010a shao2021">(<a href="references.html#ref-bhatta2010a" role="doc-biblioref">Bhatta 2010</a>; <a href="references.html#ref-shao2021" role="doc-biblioref">Shao et al. 2021</a>)</span>, manage traffic flow <span class="citation" data-cites="macioszek2021 chang2020">(<a href="references.html#ref-macioszek2021" role="doc-biblioref">Macioszek and Kurek 2021a</a>; <a href="references.html#ref-chang2020" role="doc-biblioref">Chang et al. 2020</a>)</span> and optimise land use <span class="citation" data-cites="rogan2004 xie2011">(<a href="references.html#ref-rogan2004" role="doc-biblioref">Rogan and Chen 2004</a>; <a href="references.html#ref-xie2011" role="doc-biblioref">Xie, Lin, and Ren 2011</a>)</span>. Remote sensing images can reveal the impact of urban heat island effect through Land Surface Temperature (LST) data <span class="citation" data-cites="zhou2011">(<a href="references.html#ref-zhou2011" role="doc-biblioref">Zhou et al. 2011</a>)</span>. In addition, remote sensing technology can provide risk assessment prior to natural disasters and rapidly provide critical information to support rescue and recovery efforts when disasters occur <span class="citation" data-cites="remotes2008">(<a href="references.html#ref-remotes2008" role="doc-biblioref">Nayak and Zlatanova 2008</a>)</span>. At the same time, remote sensing technology is vital for monitoring environmental changes and ecosystems. It can track deforestation, desertification processes, and water pollution <span class="citation" data-cites="jordan2014 macioszek2021a lee2020">(<a href="references.html#ref-jordan2014" role="doc-biblioref">Jordan, Ghulam, and Hartling 2014</a>; <a href="references.html#ref-macioszek2021a" role="doc-biblioref">Macioszek and Kurek 2021b</a>; <a href="references.html#ref-lee2020" role="doc-biblioref">Lee et al. 2020</a>)</span>. In today’s world of global warming, remote sensing technology helps scientists track global sea level rise, temperature changes, and aspects of the carbon cycle by monitoring long-term changes in the Earth’s surface and atmosphere <span class="citation" data-cites="schimel2015 yang2013 li2020">(<a href="references.html#ref-schimel2015" role="doc-biblioref">Schimel et al. 2015</a>; <a href="references.html#ref-yang2013" role="doc-biblioref">Yang et al. 2013</a>; <a href="references.html#ref-li2020" role="doc-biblioref">Li et al. 2020a</a>)</span>. The development of remote sensing technology has been advancing rapidly, and the integration of remote sensing data with AI and machine learning is revolutionising the way remote sensing data is processed and analysed <span class="citation" data-cites="li2020a">(<a href="references.html#ref-li2020a" role="doc-biblioref">Li et al. 2020b</a>)</span>. These technologies are capable of processing large amounts of data, identifying complex patterns, predicting future changes, and automating the interpretation of remotely sensed images, improving the efficiency and accuracy of data analysis.</p>
 </section>
-<section id="reflection" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.4</span> Reflection</h2>
-<section id="raster-image-statistics-and-processing" class="level3" data-number="1.4.1">
-<h3 data-number="1.4.1" class="anchored" data-anchor-id="raster-image-statistics-and-processing"><span class="header-section-number">1.4.1</span> Raster image statistics and processing</h3>
-</section>
-<section id="assessing-strengths-and-weaknesses" class="level3" data-number="1.4.2">
-<h3 data-number="1.4.2" class="anchored" data-anchor-id="assessing-strengths-and-weaknesses"><span class="header-section-number">1.4.2</span> Assessing strengths and weaknesses</h3>
+<section id="reflection" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
+<p>In this week’s study, I found that I need to have a sense of framework before doing the remote sensing analysis exercise, confirming the object and purpose of the analysis, choosing the appropriate sensor, and the appropriate band. It is also necessary to have a clear understanding of the steps of data processing to avoid confusion. This exercise revealed to me that remote sensing technology, despite its power, requires researchers to have an in-depth understanding of the satellite data used and its bands. Choosing the correct bands is critical to ensuring the accuracy of the results of the study, as different bands can reveal different information about the surface. Inadequate choice of bands could lead to meaningless or even misleading analyses.</p>
 
 
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-bhatta2010a" class="csl-entry" role="listitem">
+Bhatta, Basudeb. 2010. <em>Analysis of Urban Growth and Sprawl from Remote Sensing Data</em>. Springer Science &amp; Business Media.
+</div>
+<div id="ref-chang2020" class="csl-entry" role="listitem">
+Chang, Ying, Shixin Wang, Yi Zhou, Litao Wang, and Futao Wang. 2020. <span>“A Novel Method of Evaluating Highway Traffic Prosperity Based on Nighttime Light Remote Sensing.”</span> <em>Remote Sensing</em> 12 (1): 102. <a href="https://doi.org/10.3390/rs12010102">https://doi.org/10.3390/rs12010102</a>.
+</div>
+<div id="ref-jordan2014" class="csl-entry" role="listitem">
+Jordan, Yuyan C., Abduwasit Ghulam, and Sean Hartling. 2014. <span>“Traits of Surface Water Pollution Under Climate and Land Use Changes: A Remote Sensing and Hydrological Modeling Approach.”</span> <em>Earth-Science Reviews</em> 128 (January): 181–95. <a href="https://doi.org/10.1016/j.earscirev.2013.11.005">https://doi.org/10.1016/j.earscirev.2013.11.005</a>.
+</div>
+<div id="ref-lee2020" class="csl-entry" role="listitem">
+Lee, Seong-Hyeok, Kuk-Jin Han, Kwon Lee, Kwang-Jae Lee, Kwan-Young Oh, and Moung-Jin Lee. 2020. <span>“Classification of Landscape Affected by Deforestation Using High-Resolution Remote Sensing Data and Deep-Learning Techniques.”</span> <em>Remote Sensing</em> 12 (20): 3372. <a href="https://doi.org/10.3390/rs12203372">https://doi.org/10.3390/rs12203372</a>.
+</div>
+<div id="ref-li2020" class="csl-entry" role="listitem">
+Li, Xiaofeng, Bin Liu, Gang Zheng, Yibin Ren, Shuangshang Zhang, Yingjie Liu, Le Gao, Yuhai Liu, Bin Zhang, and Fan Wang. 2020a. <span>“Deep-Learning-Based Information Mining from Ocean Remote-Sensing Imagery.”</span> <em>National Science Review</em> 7 (10): 1584–1605. <a href="https://doi.org/10.1093/nsr/nwaa047">https://doi.org/10.1093/nsr/nwaa047</a>.
+</div>
+<div id="ref-li2020a" class="csl-entry" role="listitem">
+———. 2020b. <span>“Deep-Learning-Based Information Mining from Ocean Remote-Sensing Imagery.”</span> <em>National Science Review</em> 7 (10): 1584–1605. <a href="https://doi.org/10.1093/nsr/nwaa047">https://doi.org/10.1093/nsr/nwaa047</a>.
+</div>
+<div id="ref-macioszek2021" class="csl-entry" role="listitem">
+Macioszek, Elżbieta, and Agata Kurek. 2021a. <span>“Extracting Road Traffic Volume in the City Before and During Covid-19 Through Video Remote Sensing.”</span> <em>Remote Sensing</em> 13 (12): 2329. <a href="https://doi.org/10.3390/rs13122329">https://doi.org/10.3390/rs13122329</a>.
+</div>
+<div id="ref-macioszek2021a" class="csl-entry" role="listitem">
+———. 2021b. <span>“Extracting Road Traffic Volume in the City Before and During Covid-19 Through Video Remote Sensing.”</span> <em>Remote Sensing</em> 13 (12): 2329. <a href="https://doi.org/10.3390/rs13122329">https://doi.org/10.3390/rs13122329</a>.
+</div>
+<div id="ref-remotes2008" class="csl-entry" role="listitem">
+Nayak, Shailesh, and Sisi Zlatanova, eds. 2008. <em>Remote Sensing and GIS Technologies for Monitoring and Prediction of Disasters</em>. Environmental Science and Engineering. Berlin, Heidelberg: Springer. <a href="https://doi.org/10.1007/978-3-540-79259-8">https://doi.org/10.1007/978-3-540-79259-8</a>.
+</div>
+<div id="ref-rogan2004" class="csl-entry" role="listitem">
+Rogan, John, and DongMei Chen. 2004. <span>“Remote Sensing Technology for Mapping and Monitoring Land-Cover and Land-Use Change.”</span> <em>Progress in Planning</em> 61 (4): 301–25. <a href="https://doi.org/10.1016/S0305-9006(03)00066-7">https://doi.org/10.1016/S0305-9006(03)00066-7</a>.
+</div>
+<div id="ref-schimel2015" class="csl-entry" role="listitem">
+Schimel, David, Ryan Pavlick, Joshua B. Fisher, Gregory P. Asner, Sassan Saatchi, Philip Townsend, Charles Miller, Christian Frankenberg, Kathy Hibbard, and Peter Cox. 2015. <span>“Observing Terrestrial Ecosystems and the Carbon Cycle from Space.”</span> <em>Global Change Biology</em> 21 (5): 1762–76. <a href="https://doi.org/10.1111/gcb.12822">https://doi.org/10.1111/gcb.12822</a>.
+</div>
+<div id="ref-shao2021" class="csl-entry" role="listitem">
+Shao, Zhenfeng, Neema S. Sumari, Aleksei Portnov, Fanan Ujoh, Walter Musakwa, and Paulo J. Mandela. 2021. <span>“Urban Sprawl and Its Impact on Sustainable Urban Development: A Combination of Remote Sensing and Social Media Data.”</span> <em>Geo-Spatial Information Science</em> 24 (2): 241–55. <a href="https://doi.org/10.1080/10095020.2020.1787800">https://doi.org/10.1080/10095020.2020.1787800</a>.
+</div>
+<div id="ref-xie2011" class="csl-entry" role="listitem">
+Xie, Feng, Yi Lin, and Wenwei Ren. 2011. <span>“Optimizing Model for Land Use/Land Cover Retrieval from Remote Sensing Imagery Based on Variable Precision Rough Sets.”</span> <em>Ecological Modelling</em>, Wetlands in china, 222 (2): 232–40. <a href="https://doi.org/10.1016/j.ecolmodel.2010.08.011">https://doi.org/10.1016/j.ecolmodel.2010.08.011</a>.
+</div>
+<div id="ref-yang2013" class="csl-entry" role="listitem">
+Yang, Jun, Peng Gong, Rong Fu, Minghua Zhang, Jingming Chen, Shunlin Liang, Bing Xu, Jiancheng Shi, and Robert Dickinson. 2013. <span>“The Role of Satellite Remote Sensing in Climate Change Studies.”</span> <em>Nature Climate Change</em> 3 (10): 875–83. <a href="https://doi.org/10.1038/nclimate1908">https://doi.org/10.1038/nclimate1908</a>.
+</div>
+<div id="ref-zhou2011" class="csl-entry" role="listitem">
+Zhou, Ji, Yunhao Chen, Jinfei Wang, and Wenfeng Zhan. 2011. <span>“Maximum Nighttime Urban Heat Island (UHI) Intensity Simulation by Integrating Remotely Sensed Data and Meteorological Observations.”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em> 4 (1): 138–46. <a href="https://doi.org/10.1109/JSTARS.2010.2070871">https://doi.org/10.1109/JSTARS.2010.2070871</a>.
+</div>
+</div>
 </section>
 
 </div></main> <!-- /main -->
@@ -725,8 +775,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week2.html" class="pagination-link" aria-label="2 Function practice">
-        <span class="nav-page-text">2 Function practice</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week2.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>Function practice</span>">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Function practice</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

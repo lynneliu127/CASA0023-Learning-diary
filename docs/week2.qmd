@@ -2,11 +2,14 @@
 
 ## Xaringan
 
-The content for week 2 is a presentation in Xaringan on **Metop**. 
-
+The content for week 2 is a presentation in Xaringan on **Metop**.
 
 ```{r xaringan_embed, echo=FALSE}
 xaringanExtra::embed_xaringan(url = "https://lynneliu127.github.io/CASA0023sensor/", ratio = "4:3")
 ```
 
 [Github link](https://lynneliu127.github.io/CASA0023sensor/)
+
+## Reflection
+
+In this week's exercise, I learnt how to create a web-based PowerPoint using Xaringan.In my undergraduate studies I used to struggle with formatting PowerPoints and I had to spend a lot of time on layout proofreading. I was relieved after learning the Xaringan production technique, there are still several features of Xaringan that I have yet to explore, but I am still pleasantly surprised at how interactive and standardised it is.

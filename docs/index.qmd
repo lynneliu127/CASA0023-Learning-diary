@@ -4,11 +4,32 @@
 
 [^index-1]: UCL The Bartlett Centre for Advanced Spatial Analysis, MSc Urban spatial science, [GitHub](https://github.com/lynneliu127?tab=repositories)
 
-#  {.unnumbered}
-
 ## introduction
 
-```{r}
-```
+This is Yuqing Liu's remote sensing learning diary. In this diary, topics covered in [CASA0023](https://andrewmaclachlan.github.io/CASA0023/): Remotely Sensing Cities and Environments 23/24 all the material from the course, with the addition of my exercises and reflections from the course. In this diary, which follows the course TIMELINE, it is divided into 8 sections:
 
-Last updated: `r Sys.Date()`
+1.  Intro to remote sensing
+
+2.  Xaringan
+
+3.  Policy
+
+4.  Intro to GEE
+
+5.  Classification
+
+6.  Classification 2
+
+7.  SAR or temperature (the practical is a choice between SAR and temperature)
+
+## Author
+
+![](img/lynne.jpg){fig-align="center" width="50%"}
+
+I am yuqing liu (lynne Liu) from Yunnan Province, China. I received my undergraduate degree from Beijing Forestry University and my Bachelor's degree in Physical Geography. During my undergraduate studies, an internship with the Landscape Ecology Project Team at the Tropical Botanical Garden of the Chinese Academy of Sciences (TBG) gave me a special interest in urban ecology, urban development, spatial data, and geographic information systems (GIS). Currently I am studying for a postgraduate degree in [Urban Spatial Science](https://www.ucl.ac.uk/bartlett/casa/study/msc-urban-spatial-science) at The Bartlett Centre for Advanced Spatial Analysis, University College London.
+
+Outside of academia, I enjoy photography and share some of my photography:
+
+![](img/3.jpg){width="50%"}![](img/4.jpg){width="50%"} ![](img/1.jpg){width="50%"}![](img/2.jpg){width="50%"}
+
+Remote sensing images are special photographs with a lot of geographic data. But I think the essence of geographic research is not only data. There is a Chinese proverb that says, "Read ten thousand scrolls of books and travel ten thousand miles", which means life is not only about books, but also about experiencing the real world.

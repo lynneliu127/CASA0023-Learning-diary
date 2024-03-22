@@ -1,5 +1,101 @@
----
-title: "Week8-Classification II"
----
-
 # Classification II
+
+## Overview {.unnumbered}
+
+-   Summary
+-   Application
+-   Reflection
+
+## Summary
+
+### How consider / process EO data ?
+
+1.  **Pixel**: Pixel-based analysis, spectral unmixing
+
+2.  **Objects** (image objects or segments): object-based image analysis (OBIA)
+
+3.  **Mixed** **pixels**: spectral decomposition, sub-image classification
+
+4.  **Mixed** **objects**: hierarchical classification, multi-resolution data fusion
+
+### What data should we use assess the accuracy of our classification models ?
+
+1.  New dataset to test the output with
+
+2.  Train / split the training data
+
+3.  **Cross-validation:**Reduce the chance of model evaluation by dividing the dataset into subsets and iteratively performing training and validation.
+
+    -   k-fold cross-validation
+
+    -   Leave-One-Out Cross-Validation, LOOCV
+
+    -   Stratified k-fold cross-validation
+
+    -   Time Series Cross-Validation
+
+### When we have a test dataset how do we assess the accuracy ?
+
+1.  **Confusion Matrix:** Evaluates the performance of a classification model, showing the relationship between the actual categories and the categories predicted by the model.
+
+    -   True Positives (TP): the number of correctly predicted true positives.
+
+    -   False Positives (FP): the number of negative cases that are incorrectly predicted as positive cases.
+
+    -   True Negatives (TN): the number of correctly predicted negative examples.
+
+    -   False Negatives (FN): the number of positive examples that were incorrectly predicted to be negative.
+
+2.  **Accuracy:**Indicates the proportion of samples correctly predicted by the model to the total samples.
+
+    Formula:
+
+    $$
+    \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+    $$
+
+3.  **Precision and Recall**
+
+    -   Precision (also known as positive predictive value) is the proportion of positive categories predicted by the model that are actually positive:\
+        $$
+        \text{Precision} = \frac{TP}{TP + FP} 
+        $$
+    -   Recall (also known as sensitivity or true instance rate) is the proportion of positive categories correctly identified by the model to all actual positive categories: $$
+        \text{Recall} = \frac{TP}{TP + FN}
+        $$
+
+4.  **F1 score:** the reconciled average of precision and recall, which is a composite of the two indicators: $$
+    F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    $$
+
+5.  **ROC Curve and AUC**
+
+    ROC (Receiver Operating Characteristic) curve: shows the relationship between the true case rate (recall) and the false positive case rate (1 - true negative case rate) of the model at different thresholds.
+
+    AUC (Area Under the Curve): the area under the ROC curve, the larger the value, the better the model performance.
+
+6.  **Kappa coefficient**
+
+    Applied to assess the accuracy of remote sensing image classification.
+
+### When training and testing our classification models do we need to consider spatial autocorrelation?
+
+1.  **Object-Based Image Analysis, OBIA**
+
+    -   Image segmentation: The segmentation of an image into a number of coherent, mutually independent regions or objects. Each object is a collection of neighbouring pixels with similar spectral, textural or geometric features.
+
+    -   Feature Extraction: extracting features from each object, which can include shape, size, texture, colour or relative position to other objects.
+
+    -   Object Classification: based on the extracted features, each object is classified using various classification algorithms (e.g., Support Vector Machines, Random Forests, or Neural Networks).
+
+    -   Post-processing: may include steps such as merging of objects, elimination of classification errors, boundary smoothing, etc. to improve the accuracy and usability of the classification results.
+
+2.  **Spatial cross validation**
+
+    -   Validation of spatial models: In the fields of ecological models, climate models, geological models, etc., it is used to validate the predictive ability of models at unknown spatial locations.
+
+    -   Geographically Weighted Regression (GWR): to assess the prediction accuracy and stability of geographically weighted models.
+
+    -   Remote Sensing Image Classification (RSIC): Evaluates image classification models in different geographic regions to ensure the validity of the models in brand new regions.
+
+## Application

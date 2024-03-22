@@ -1,5 +1,85 @@
----
-title: "Week7-Classification I"
----
-
 # Classification I
+
+## Overview {.unnumbered}
+
+-   Summary
+-   Application
+-   Reflection
+
+## Summary
+
+### Mind Map
+
+```{r, echo=FALSE, out.width="100%", fig.align='middle'}
+knitr::include_graphics('week7/mind map.png')
+```
+
+### Supervised
+
+1.  **Decision Trees**
+
+    -   **Classification Trees**:Data is classified into two or more discrete (can only have specific values) categories.
+
+        Gini impurity or information gain (based on entropy) is used to select the best features for segmentation.
+
+    -   **Regression trees**:subset the data into smaller chunks
+
+        Predicting continuous dependent variables
+
+    -   **Overfitting** problems
+
+        -   Bias = difference between predicted value and true value = oversimplifies model
+
+        -   Variance = variability of model for a given point = does not genearlise well
+
+        -   Cost Complexity Pruning (CCP): α is the key parameter controlling this trade-off
+
+            Smaller values of α: favour more complex trees (i.e., less pruning).
+
+            Larger values of α: favour simpler trees (i.e., more pruning).
+
+2.  **Random Forests**
+
+    -   Random forests construct a decision tree for each sampled dataset by randomly bootstrap drawing multiple samples from the original dataset.
+
+    -   At each split node of each decision tree, the algorithm randomly selects a portion of features. This randomness helps to enhance the generalisation of the model and reduce overfitting.
+
+    -   Each tree is built independently
+
+    -   **Advantages**
+
+        -   High accuracy: helps reduce model bias and variance
+
+        -   High generalisation ability
+
+        -   Able to handle high dimensional data
+
+    -   **Cons**: Poor model interpretation: the entire random forest as an integrated model is not as interpretive as a single decision tree.
+
+3.  **Support Vector Machines (SVM)**
+
+    Finding a hyperplane in a high-dimensional space to separate different categories, with the goal of maximising the distance between the boundaries of two categories while keeping the categories separated.
+
+4.  **Logistic Regression**
+
+    Often used in binary classification problems, where classification is predicted by estimating probabilities.
+
+5.  **K-Nearest Neighbours (K-NN)**
+
+### Unsupervised
+
+1.  **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise): density-based clustering algorithm that does not require pre-labelled data.
+
+2.  **K-mean** clustering: dividing data points into K clusters in order to make points within the same cluster as close as possible to each other and points within different clusters as far away as possible.
+
+3.  **ISODATA** Algorithm (Iterative Self-Organising Data Analysis Technique Algorithm) is an iterative self-organising data analysis technique mainly used for cluster analysis. It is an extension of the K-means algorithm that allows the number of clusters to change dynamically during the clustering process.
+
+4.  **Cluster** busting: splitting large clusters containing too many strongholds (land cover)
+
+### Maximum Likelihood Estimation(MLE)
+
+A method used in statistics to estimate the parameters of a model such that the probability (i.e., likelihood) that the model will produce the observed data is maximised.
+
+Linear regression, logistic regression, etc., parameters are often estimated by maximum likelihood methods.
+
+## Application

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diary - 4&nbsp; Week4-Policy</title>
+<title>Remote Sensing Learning Diary - 4&nbsp; Policy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week5.html" rel="next">
+<link href="./week6.html" rel="next">
 <link href="./week3.html" rel="prev">
+<link href="./img/ucl.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,11 +63,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,102 +89,129 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(img/nasa_earth_grid.jpg);
+background-size: cover;
+      }
+</style>
 
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/casa_logo.jpg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span style="color: black;">Remote Sensing Learning Diary</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week4.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4-Policy</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week4.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Diary</a> 
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
     </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Preface</span></a>
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1-Intro to remote sensing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro to remote sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week2-Function practice</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Function practice</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3-Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4-Policy</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week5-Reading &amp; Practice</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week6-Intro to GEE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Intro to GEE</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week7-Classification I</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week8-Classification II</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Classification II</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SAR or Temperature</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,36 +230,82 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#policy" id="toc-policy" class="nav-link active" data-scroll-target="#policy"><span class="header-section-number">5</span> Policy</a></li>
+  <li><a href="#beijing-flood-management" id="toc-beijing-flood-management" class="nav-link active" data-scroll-target="#beijing-flood-management">Beijing Flood Management</a>
+  <ul class="collapse">
+  <li><a href="#sendai-framework-for-disaster-risk-reduction-2015-2030" id="toc-sendai-framework-for-disaster-risk-reduction-2015-2030" class="nav-link" data-scroll-target="#sendai-framework-for-disaster-risk-reduction-2015-2030">-Sendai Framework for Disaster Risk Reduction 2015-2030</a></li>
+  <li><a href="#based-on-sendai-framework-for-disaster-risk-reduction-2015-2030" id="toc-based-on-sendai-framework-for-disaster-risk-reduction-2015-2030" class="nav-link" data-scroll-target="#based-on-sendai-framework-for-disaster-risk-reduction-2015-2030">Based on <strong>Sendai Framework for Disaster Risk Reduction 2015-2030</strong></a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">4.1</span> Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4.2</span> References</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week4-Policy</span></h1>
+
+
+
+
+<section id="beijing-flood-management" class="level1 unnumbered">
+<h1 class="unnumbered">Beijing Flood Management</h1>
+<section id="sendai-framework-for-disaster-risk-reduction-2015-2030" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sendai-framework-for-disaster-risk-reduction-2015-2030">-Sendai Framework for Disaster Risk Reduction 2015-2030</h2>
+<p>My city of choice is Beijing, China. Beijing, the capital and economic centre of China, is suffering from the effects of summer flooding. Northern China’s climate is dry for most of the year, which means that in the summer, when southern typhoons travel north, rapid and heavy rainfall soaks the parched land. Prolonged drought, however, can make soil less absorbent, increasing the risk of flash floods<span class="citation" data-cites="nie2017">(<a href="references.html#ref-nie2017" role="doc-biblioref">Nie et al. 2017</a>)</span>.</p>
+<p>Beijing, where rapid urban development resulted in a massive sprawl of concrete infrastructure, that means a lethal concentration of surface that is effectively waterproof by design<span class="citation" data-cites="zhang2023 ding2022">(<a href="references.html#ref-zhang2023" role="doc-biblioref">Zhang et al. 2023</a>; <a href="references.html#ref-ding2022" role="doc-biblioref">Ding et al. 2022</a>)</span>.Beijing has a monsoon climate with uneven spatial and temporal distribution of precipitation. Floods account for more than 80 per cent of annual precipitation and are concentrated in late July and early August<span class="citation" data-cites="dou2015">(<a href="references.html#ref-dou2015" role="doc-biblioref">Dou et al. 2015</a>)</span>. The windward slopes in front of the city’s mountains are prone to flash floods, and floods and droughts are frequent<span class="citation" data-cites="wang2024">(<a href="references.html#ref-wang2024" role="doc-biblioref">Wang et al. 2024</a>)</span>.</p>
+<p>Publicly available data from China’s National Meteorological Centre shows how a number of national level weather stations in Beijing and Hebei province received a large portion of their annual average rainfall in the three days from July 29 to Aug.&nbsp;1.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week4/Beijing.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+<figcaption>source:<span class="citation" data-cites="wang2024">Wang et al. (<a href="references.html#ref-wang2024" role="doc-biblioref">2024</a>)</span></figcaption>
+</figure>
 </div>
+<p>The figure depicts the hydrography of Beijing, with some hills and low hills distributed in the west and north of the city. When heavy rainfall comes, the large amount of hardened surface in the urban area is not conducive to the infiltration of rainwater, which increases the amount of rainfall runoff, and makes the urban catchment area more prone to flooding.</p>
+</section>
+<section id="based-on-sendai-framework-for-disaster-risk-reduction-2015-2030" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="based-on-sendai-framework-for-disaster-risk-reduction-2015-2030">Based on <strong>Sendai Framework for Disaster Risk Reduction 2015-2030</strong></h2>
+<p>The framework provides comprehensive guidelines for managing disaster risk and reducing the loss of lives, livelihoods, health, and economic, physical, social, cultural and environmental assets of individuals, businesses, communities and nations. To summarise these guidelines in the context of flood disaster management in Beijing</p>
+<iframe width="675" height="380" src="https://www.youtube.com/embed/M9m6mb-blYM?si=d8tB2snj_9mlMxU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<ol type="1">
+<li><p><strong>Understanding disaster risk</strong>: Recognise all aspects of flood risk, including vulnerability, capacity and exposure of people and assets, and hazard characteristics. This includes promoting the collection, analysis, management and use of relevant data and practical information, and ensuring its dissemination.</p></li>
+<li><p><strong>Strengthening disaster risk management</strong>:Strengthen disaster risk management for effective flood risk management. This requires strategies, clear vision, capacity and guidance within and across sectors, and the involvement of all relevant stakeholders.</p></li>
+<li><p><strong>Investment in disaster risk reduction</strong>: Public and private investments in flood risk prevention and reduction through structural and non-structural measures are essential. These investments build economic, social, health and cultural resilience and contribute to innovation, growth and job creation.</p></li>
+</ol>
+<p><img src="week4/boat1.png" class="img-fluid quarto-figure quarto-figure-left" style="width:50.0%"><img src="week4/boat3.jpg" class="img-fluid quarto-figure quarto-figure-right" style="width:50.0%"></p>
+<ol start="4" type="1">
+<li><strong>Strengthening disaster preparedness</strong>: Preparing for effective response and “building back better” during the recovery, rehabilitation and reconstruction phases. This includes the development and maintenance of early warning systems, emergency preparedness plans, and the ability to respond and recover effectively from floods.</li>
+<li><strong>Role of stakeholders</strong>: While the primary responsibility for disaster risk reduction lies with the State, it needs to be shared with relevant stakeholders. This includes local communities, the private sector and other non-state stakeholders who can provide knowledge, expertise and resources to disaster risk reduction initiatives.</li>
+<li><strong>International co-operation and global partnerships:</strong> Emphasis was placed on the need to strengthen international support and partnerships to support national efforts to reduce disaster risk, especially in developing countries such as China. Such support could be in the form of financial resources, technology transfer and capacity building.</li>
+</ol>
+</section>
+<section id="reflection" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="reflection"><span class="header-section-number">4.1</span> Reflection</h2>
+<p>The Beijing 2023 floods once again highlighted the importance of remote sensing data in monitoring and managing urban floods. The event provided valuable lessons learned, in particular on how remote sensing can be used to improve flood prevention, response and recovery processes. At the same time, when dealing with geographic issues, we should also take into account relevant international policies, case studies, and scientific planning for urban green spaces, and flood management.</p>
+</section>
+<section id="references" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="references"><span class="header-section-number">4.2</span> References</h2>
+<p>Wang, Z., Li, Z., Wang, Y., Zheng, X., &amp; Deng, X. (2024). Building green infrastructure for mitigating urban flood risk in Beijing, China. Urban Forestry &amp; Urban Greening, 93, 128218-. <a href="https://doi.org/10.1016/j.ufug.2024.128218" class="uri">https://doi.org/10.1016/j.ufug.2024.128218</a></p>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="policy" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Policy</h1>
-
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-ding2022" class="csl-entry" role="listitem">
+Ding, XingChen, WeiHong Liao, XiaoHui Lei, Hao Wang, JiaLi Yang, and Hao Wang. 2022. <span>“Assessment of the Impact of Climate Change on Urban Flooding: A Case Study of Beijing, China.”</span> <em>Journal of Water and Climate Change</em> 13 (10): 3692–3715. <a href="https://doi.org/10.2166/wcc.2022.224">https://doi.org/10.2166/wcc.2022.224</a>.
+</div>
+<div id="ref-dou2015" class="csl-entry" role="listitem">
+Dou, Jingjing, Yingchun Wang, Robert Bornstein, and Shiguang Miao. 2015. <span>“Observed Spatial Characteristics of Beijing Urban Climate Impacts on Summer Thunderstorms.”</span> <em>Journal of Applied Meteorology and Climatology</em> 54 (1): 94–105. <a href="https://doi.org/10.1175/JAMC-D-13-0355.1">https://doi.org/10.1175/JAMC-D-13-0355.1</a>.
+</div>
+<div id="ref-nie2017" class="csl-entry" role="listitem">
+Nie, Wanshu, Benjamin F. Zaitchik, Guangheng Ni, and Ting Sun. 2017. <span>“Impacts of Anthropogenic Heat on Summertime Rainfall in Beijing.”</span> <em>Journal of Hydrometeorology</em> 18 (3): 693–712. <a href="https://doi.org/10.1175/JHM-D-16-0173.1">https://doi.org/10.1175/JHM-D-16-0173.1</a>.
+</div>
+<div id="ref-wang2024" class="csl-entry" role="listitem">
+Wang, Zehao, Zhihui Li, Yifei Wang, Xinqi Zheng, and Xiangzheng Deng. 2024. <span>“Building Green Infrastructure for Mitigating Urban Flood Risk in Beijing, China.”</span> <em>Urban Forestry &amp; Urban Greening</em> 93 (March): 128218. <a href="https://doi.org/10.1016/j.ufug.2024.128218">https://doi.org/10.1016/j.ufug.2024.128218</a>.
+</div>
+<div id="ref-zhang2023" class="csl-entry" role="listitem">
+Zhang, Xiwen, Feng Mao, Zhaoya Gong, David M. Hannah, Yunnan Cai, and Jiansheng Wu. 2023. <span>“A Disaster-Damage-Based Framework for Assessing Urban Resilience to Intense Rainfall-Induced Flooding.”</span> <em>Urban Climate</em> 48 (March): 101402. <a href="https://doi.org/10.1016/j.uclim.2022.101402">https://doi.org/10.1016/j.uclim.2022.101402</a>.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -604,13 +698,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./week3.html" class="pagination-link  aria-label=" &lt;span="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week3-Corrections</span></span>
+      <a href="./week3.html" class="pagination-link  aria-label=" &lt;span="" &amp;="" enhancements&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Corrections &amp; Enhancements</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week5.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Week5-Reading &amp; Practice</span>">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week5-Reading &amp; Practice</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week6.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Intro to GEE</span>">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Intro to GEE</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -619,4 +713,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

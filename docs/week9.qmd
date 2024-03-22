@@ -1,5 +1,48 @@
----
-title: "Week9-SAR or Temperature"
----
-
 # SAR or Temperature
+
+## Overview {.unnumbered}
+
+-   Summary
+-   Application
+-   Reflection
+
+## Summary
+
+### Synthetic Aperture Radar.
+
+1.  Active sensors
+
+2.  Have surface texture data
+
+3.  See through weather and clouds
+
+4.  Different wavelengths - different applications
+
+![The Role of Frequency and Wavelength [NASA](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)](week8/SAR_bands.png){width="50%"}
+
+**Penetration**: Longer wavelengths (L and P bands) can penetrate deeper into vegetation and the ground, making it suitable for subsurface, biomass and soil moisture studies.
+
+**Spatial Resolution**:Shorter wavelengths (X and C bands) generally provide higher spatial resolution, which facilitates detailed mapping and surveillance applications.
+
+**Atmospheric conditions**:Different wavelengths interact significantly with the atmosphere; longer wavelengths are generally less affected by atmospheric humidity.
+
+**Target characteristics**: The nature of the target area (urban, agricultural, forest, etc.) influences the selection of the optimal wavelength for imaging and data extraction.
+
+### InSAR or DInSAR
+
+1.  SAR = Active sensor, records energy reflected back through clouds.
+2.  InSAR = Used in DEMs to convert phase differences to relative heights.
+3.  DInSAR = time variation between two images. Observe movement of land (uplift or subsidence) with topography removed (using DEM)
+
+## Application
+
+1.  **Topographic mapping**: generation of high-resolution topographic maps and elevation data.
+2.  **Environmental monitoring**: observation of environmental changes such as changes in forest cover and changes in wetlands.
+3.  **Agriculture**: Monitor crop growth and farmland management.
+4.  **Disaster management**: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides.
+5.  **Urban planning**: urban development monitoring and infrastructure planning.
+6.  **Glacier and polar monitoring**: study of glacier movement and melting, and environmental changes in the polar regions.
+
+## Reflection
+
+## References

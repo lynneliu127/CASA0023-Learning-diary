@@ -1,8 +1,12 @@
-# Intro to remote sensing 
+---
+bibliography: references.bib
+---
+
+# Intro to remote sensing
 
 <div style="text-align: justify">
 
-## Overview
+## Overview {.unnumbered}
 
 -   Knowledge Review
 -   Practice
@@ -12,21 +16,21 @@
 
 ### Mind map
 
-```{r, echo=FALSE, out.width="100%", fig.align='middle'}
-knitr::include_graphics('week1/mind map.png')
-```
+![](week1/mind%20map.png){fig-align="center" width="80%"}
 
 ### What is Remote Sensing?
 
-```{r, echo=FALSE, out.width="30%", fig.align='right'}
-knitr::include_graphics('week1/Air-Quality-Transparent-Blue.gif')
-```
+::: {style="display: flex; align-items: center; justify-content: space-between;"}
+::: {style="flex-grow: 1;"}
+Remote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet ([NASA](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing)).
+:::
 
-Remote sensing is the acquiring of information from a distance.By observing Earth and other planetary bodies via remote sensors on satellites and aircraft that detect and record reflected or emitted energy. Remote sensors, which provide a global perspective and a wealth of data about Earth systems, enable data-informed decision making based on the current and future state of our planet.
+<img src="week1/Air-Quality-Transparent-Blue.gif" style="width: 200px; margin-left: 20px;"/>
+:::
 
 ### Satellite
 
-#### **Landsat data**
+#### **Landsat data** {.unnumbered}
 
 **Satellites and sensors:** The newest is Landsat 9, launched in 2021, and its predecessors include a series of successful satellites such as Landsat 7 and Landsat 8.
 
@@ -36,7 +40,7 @@ Remote sensing is the acquiring of information from a distance.By observing Eart
 
 **Data Availability:** The Landsat project provides **decades-long archived data**, essential for scientific research and environmental monitoring.
 
-#### **Sentinel Data**
+#### **Sentinel Data** {.unnumbered}
 
 **Satellites and sensors:** Includes multiple satellites such as Sentinel-1 (carrying Synthetic Aperture Radar, SAR), Sentinel-2 (carrying Multispectral Instrument) and several other satellites focussed on different missions.
 
@@ -46,11 +50,17 @@ Remote sensing is the acquiring of information from a distance.By observing Eart
 
 **Data Availability:** Sentinel data are available in real-time since launch, are easily accessible, and support near real-time applications.
 
+![Sentinel-2 (left) and Landsat-8 (right) band comparisons](week1/table_comparison-1%20(1).png)
+
+Band resolution between Sentinel ([Table 1 - left](https://gisgeography.com/sentinel-2-bands-combinations/)) and Landsat ([Table 2 - right](https://www.usgs.gov/faqs/what-are-band-designations-landsat-satellites#:~:text=Landsat%204%2D5%20Thematic%20Mapper,106%20mi%20by%20114%20mi)).
+
 ### Spectral features
 
 -   **Visible bands:** Usually include blue, green and red bands, which are used to capture the colour and reflective properties of the ground surface and are commonly used for vegetation monitoring, land cover classification, etc.
 
 -   **Near infrared (NIR) band:** Vegetation has high reflectance in this band and is commonly used for vegetation health assessment, vegetation type differentiation, etc.
+
+![Spectral fingerprints](week1/spectralfingerprints.jpg){fig-align="center"}
 
 -   **Short-wave infrared band:** Provides information on moisture status, vegetation type and fire scars.
 
@@ -58,14 +68,10 @@ Remote sensing is the acquiring of information from a distance.By observing Eart
 
 -   **Mid-infrared band:** helps to differentiate between different rock and soil types and can also be used to detect the presence of snow, ice and clouds.
 
-```{r, echo=FALSE, out.width="100%", fig.align='right', fig.cap="Spectral signatures of different Earth features within the visible light spectrum. Credit: Jeannie Allen."}
-knitr::include_graphics('week1/spectralfingerprints.jpg')
-```
+## Application
 
-## Practice
+Remote sensing technology has evolved to be widely used in a variety of fields. As urban planners, we usually use remote sensing data to monitor urban sprawl [@bhatta2010a; @shao2021], manage traffic flow [@macioszek2021; @chang2020] and optimise land use [@rogan2004; @xie2011]. Remote sensing images can reveal the impact of urban heat island effect through Land Surface Temperature (LST) data [@zhou2011]. In addition, remote sensing technology can provide risk assessment prior to natural disasters and rapidly provide critical information to support rescue and recovery efforts when disasters occur [@remotes2008]. At the same time, remote sensing technology is vital for monitoring environmental changes and ecosystems. It can track deforestation, desertification processes, and water pollution [@jordan2014; @macioszek2021a; @lee2020]. In today's world of global warming, remote sensing technology helps scientists track global sea level rise, temperature changes, and aspects of the carbon cycle by monitoring long-term changes in the Earth's surface and atmosphere [@schimel2015; @yang2013; @li2020]. The development of remote sensing technology has been advancing rapidly, and the integration of remote sensing data with AI and machine learning is revolutionising the way remote sensing data is processed and analysed [@li2020a]. These technologies are capable of processing large amounts of data, identifying complex patterns, predicting future changes, and automating the interpretation of remotely sensed images, improving the efficiency and accuracy of data analysis.
 
 ## Reflection
 
-### Raster image statistics and processing
-
-### Assessing strengths and weaknesses
+In this week's study, I found that I need to have a sense of framework before doing the remote sensing analysis exercise, confirming the object and purpose of the analysis, choosing the appropriate sensor, and the appropriate band. It is also necessary to have a clear understanding of the steps of data processing to avoid confusion. This exercise revealed to me that remote sensing technology, despite its power, requires researchers to have an in-depth understanding of the satellite data used and its bands. Choosing the correct bands is critical to ensuring the accuracy of the results of the study, as different bands can reveal different information about the surface. Inadequate choice of bands could lead to meaningless or even misleading analyses.

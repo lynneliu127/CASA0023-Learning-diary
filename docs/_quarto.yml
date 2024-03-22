@@ -28,7 +28,6 @@ book:
     - week2.qmd
     - week3.qmd
     - week4.qmd
-    - week5.qmd
     - week6.qmd
     - week7.qmd
     - week8.qmd
@@ -42,8 +41,9 @@ format:
     title-block-banner: img/nasa_earth_grid.jpg
     theme: cosmo
     code-link: true
+    fontsize: 14pt
   pdf:
-    documentclass: scrreprt
-
+    documentclass: article
+    fontsize: 14pt
 
 editor: visual

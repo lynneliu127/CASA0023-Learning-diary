@@ -1,5 +1,76 @@
 ---
-title: "Week6-Intro to GEE"
+bibliography: references.bib
 ---
 
 # Intro to GEE
+
+## Overview {.unnumbered}
+
+-   Summary
+-   Application
+-   Reflection
+
+## Summary
+
+This section provides a quick general overview of the lecture and the key details and points about Google Earth Engine (GEE), mostly provided in bullet points to refine the most important things to remember when understanding what GEE is and how it is used.
+
+### What is GEE?
+
+-   A platform which provides a catalog of satellite imagery and geospatial data for analysis.
+-   Provides the ability to use large datasets at a very fast pace, applying self-written code.
+-   Uses JavaScript.
+-   Code runs on both the client and server side.
+
+### Why is it used?
+
+-   Complete image does not need to be loaded many times when looping.
+-   Public datasets, openly available use.
+
+### Usage details
+
+-   Image scale = pixel resolution, set by the output
+-   All data converted automatically to the Mercator projection
+-   Object = vector, raster, feature, string, number - belong to a class
+-   Image = raster（Has bands）
+-   Geometry = point, line, polygon - no attributes
+-   Feature = geometry with attributes
+
+```{r, echo=FALSE, out.width="100%", fig.align='middle'}
+knitr::include_graphics('week5/GEE.png')
+```
+
+Figure1:[^1]Google Earth Engine Code Editor interface (Source: Google Earth Engine)
+
+[^1]: Google Earth Engine Code Editor interface (Source: Google Earth Engine)
+
+### What can be done with GEE?
+
+-   Spatial operations such as joins, zonal statistics ( reduceRegion() ), filtering
+
+-   Reducing imagery by region or neighbourhood
+
+-   Machine learning, classification, deep learning
+
+-   Imagery is accessible from multiple sensors
+
+-   Linear regression, multivariate multiple linear regression
+
+-   Joins - spatial joins, intersections
+
+## Application
+
+The applications for Google Earth Engine are vast. earth Engine really changes things by making remote sensing analyses faster and more accessible (you don't have to download huge amounts of data and then spend a lot of time working with giant raster files). The diagram below summarises the range of applications for Earth Engine:
+
+![Google Earth Engine applications[@amani2020]](week5/GEE.gif){fig-align="center" width="60%"}
+
+Due to the fact that no images were saved during the classroom exercise, I will use the literature to make an example for the application of the GEE platform: a specific example of the GEE application is its use in identifying land categories and detecting changes in EVI over the years through the indicators of changes in vegetation density and land cover. Advance EVI through the GEE platform is evident from the time series analysis that the Dasi industrial area shows significant land cover changes, mainly due to urbanisation and land reclamation activities [@sidhu2018].
+
+![The gradual change in the land cover of the Tuas industrial area (a) 2006, (b) 2008, (c) 2010 (Google Earth, Citation2015)](week6/sp.jpg){fig-align="center"}
+
+Advantages and disadvantages of GEE[@amani2020a]：
+
+![Main Advantages & Disadvantages of GEE Big Geo Data Processing Platform](week6/amani.t1-3021052-large.gif){fig-align="center"}
+
+## Reflection
+
+This week we delved into Google Earth Engine, which has greatly accelerated the field of remote sensing. I have to say that it's really a lot easier and more convenient to start using Earth Engine without having to debug time and time again for strange problems, but at the same time I found the process of having to manually download and process the images in SNAP or QGIS to be very cumbersome and time-consuming, as well as the fact that when uploading the shape range files for the study area there can only be one shape file in the zip file, which took me A lot of time was spent on solving this small but easily stuck problem. Overall though, processing raster images with the GEE platform really went much smoother.
