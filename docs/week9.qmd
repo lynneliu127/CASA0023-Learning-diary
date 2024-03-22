@@ -2,7 +2,7 @@
 bibliography: references.bib
 ---
 
-# SAR or Temperature
+# SAR
 
 ## Overview {.unnumbered}
 

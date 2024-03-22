@@ -8,19 +8,21 @@
 
 This is Yuqing Liu's remote sensing learning diary. In this diary, topics covered in [CASA0023](https://andrewmaclachlan.github.io/CASA0023/): Remotely Sensing Cities and Environments 23/24 all the material from the course, with the addition of my exercises and reflections from the course. In this diary, which follows the course TIMELINE, it is divided into 8 sections:
 
-1.  Intro to remote sensing
+1.  [Intro to remote sensing](https://lynneliu127.github.io/CASA0023-Learning-diary/week1.html)
 
-2.  Xaringan
+2.  [Xaringan](https://lynneliu127.github.io/CASA0023-Learning-diary/week2.html)
 
-3.  Policy
+3.  [Corrections & Enhancements](https://lynneliu127.github.io/CASA0023-Learning-diary/week3.html)
 
-4.  Intro to GEE
+4.  [Policy](https://lynneliu127.github.io/CASA0023-Learning-diary/week4.html)
 
-5.  Classification
+5.  [Intro to GEE](https://lynneliu127.github.io/CASA0023-Learning-diary/week6.html)
 
-6.  Classification 2
+6.  [Classification](https://lynneliu127.github.io/CASA0023-Learning-diary/week7.html)
 
-7.  SAR or temperature (the practical is a choice between SAR and temperature)
+7.  [Classification II](https://lynneliu127.github.io/CASA0023-Learning-diary/week8.html)
+
+8.  [SAR](https://lynneliu127.github.io/CASA0023-Learning-diary/week8.html)
 
 ## Author
 

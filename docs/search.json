@@ -52,11 +52,11 @@
   {
     "objectID": "week9.html",
     "href": "week9.html",
-    "title": "8  SAR or Temperature",
+    "title": "8  SAR",
     "section": "",
     "text": "Overview",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR or Temperature</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR</span>"
     ]
   },
   {
@@ -164,7 +164,7 @@
     "href": "week1.html#overview",
     "title": "1  Intro to remote sensing",
     "section": "Overview",
-    "text": "Overview\n\nKnowledge Review\nPractice\nReflection",
+    "text": "Overview\n\nKnowledge Review\nApplication\nReflection",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Intro to remote sensing</span>"
     ]
@@ -214,7 +214,7 @@
     "href": "index.html#introduction",
     "title": "Remote Sensing Learning Diary",
     "section": "introduction",
-    "text": "introduction\nThis is Yuqing Liu’s remote sensing learning diary. In this diary, topics covered in CASA0023: Remotely Sensing Cities and Environments 23/24 all the material from the course, with the addition of my exercises and reflections from the course. In this diary, which follows the course TIMELINE, it is divided into 8 sections:\n\nIntro to remote sensing\nXaringan\nPolicy\nIntro to GEE\nClassification\nClassification 2\nSAR or temperature (the practical is a choice between SAR and temperature)",
+    "text": "introduction\nThis is Yuqing Liu’s remote sensing learning diary. In this diary, topics covered in CASA0023: Remotely Sensing Cities and Environments 23/24 all the material from the course, with the addition of my exercises and reflections from the course. In this diary, which follows the course TIMELINE, it is divided into 8 sections:\n\nIntro to remote sensing\nXaringan\nCorrections & Enhancements\nPolicy\nIntro to GEE\nClassification\nClassification II\nSAR",
     "crumbs": [
       "About"
     ]
@@ -554,7 +554,7 @@
     "href": "week3.html#ndvi-ndmi",
     "title": "3  Corrections & Enhancements",
     "section": "3.3 NDVI & NDMI",
-    "text": "3.3 NDVI & NDMI\nDue to the fact that Mallorca is an important tourist island in Europe, its beautiful natural seaside scenery attracts many tourists every year.Due to Mallorca’s long hours of sunshine and low rainfall all year round, understanding the vegetation of Mallorca becomes crucial in the face of the ecological impact of water loss in temporary streams (Garcia et al. (2017)). Using the near-infrared and red bands in L-8/9, we can get an idea of the intensity of the vegetation throughout the island.\n\n3.3.1 NDVI\nThe figure below illustrates which areas meet the different NDVI thresholds. We see that a large portion of Mallorca has positive NDVI, but there are some rocky or sandy surface areas in the centre (USGS).\n \n\n\n3.3.2 NDMI\nNDMI is used to determine vegetation water content and is measured similarly to NDVI. Below we provide a similar breakdown for different areas with different thresholds:\nUnsurprisingly, the land area is overwhelmingly positive! In addition, we must keep in mind the timing aspect, as these observations were made during the winter months in the northern hemisphere, when the island of Mallorca usually has moderate temperatures and moderate rainfall. February falls in the middle of winter, which is the month with the lowest temperatures of the year. Because of Mallorca’s Mediterranean climate, winters are mild and summers are hot, sunny and a little sultry, but buffeted by sea breezes. So these values do not fluctuate much throughout the year.\n(Source)",
+    "text": "3.3 NDVI & NDMI\nDue to the fact that Mallorca is an important tourist island in Europe, its beautiful natural seaside scenery attracts many tourists every year.Due to Mallorca’s long hours of sunshine and low rainfall all year round, understanding the vegetation of Mallorca becomes crucial in the face of the ecological impact of water loss in temporary streams (Garcia et al. (2017)). Using the near-infrared and red bands in L-8/9, we can get an idea of the intensity of the vegetation throughout the island.\n\n3.3.1 NDVI\nThe figure below illustrates which areas meet the different NDVI thresholds. We see that a large portion of Mallorca has positive NDVI, but there are some rocky or sandy surface areas in the centre (USGS).\n\n\n\n\n3.3.2 NDMI\nNDMI is used to determine vegetation water content and is measured similarly to NDVI. Below we provide a similar breakdown for different areas with different thresholds:\n\n\nUnsurprisingly, the land area is overwhelmingly positive! In addition, we must keep in mind the timing aspect, as these observations were made during the winter months in the northern hemisphere, when the island of Mallorca usually has moderate temperatures and moderate rainfall. February falls in the middle of winter, which is the month with the lowest temperatures of the year. Because of Mallorca’s Mediterranean climate, winters are mild and summers are hot, sunny and a little sultry, but buffeted by sea breezes. So these values do not fluctuate much throughout the year.\n(Source)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corrections & Enhancements</span>"
     ]
@@ -632,41 +632,41 @@
   {
     "objectID": "week9.html#overview",
     "href": "week9.html#overview",
-    "title": "8  SAR or Temperature",
+    "title": "8  SAR",
     "section": "",
     "text": "Summary\nApplication\nReflection",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR or Temperature</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#summary",
     "href": "week9.html#summary",
-    "title": "8  SAR or Temperature",
+    "title": "8  SAR",
     "section": "8.1 Summary",
     "text": "8.1 Summary\n\n8.1.1 Synthetic Aperture Radar.\n\nActive sensors\nHave surface texture data\nSee through weather and clouds\nDifferent wavelengths - different applications\n\n\n\n\nThe Role of Frequency and Wavelength NASA\n\n\nPenetration: Longer wavelengths (L and P bands) can penetrate deeper into vegetation and the ground, making it suitable for subsurface, biomass and soil moisture studies.\nSpatial Resolution:Shorter wavelengths (X and C bands) generally provide higher spatial resolution, which facilitates detailed mapping and surveillance applications.\nAtmospheric conditions:Different wavelengths interact significantly with the atmosphere; longer wavelengths are generally less affected by atmospheric humidity.\nTarget characteristics: The nature of the target area (urban, agricultural, forest, etc.) influences the selection of the optimal wavelength for imaging and data extraction.\n\n\n8.1.2 InSAR or DInSAR\n\nSAR = Active sensor, records energy reflected back through clouds.\nInSAR = Used in DEMs to convert phase differences to relative heights.\nDInSAR = time variation between two images. Observe movement of land (uplift or subsidence) with topography removed (using DEM)",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR or Temperature</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#application",
     "href": "week9.html#application",
-    "title": "8  SAR or Temperature",
+    "title": "8  SAR",
     "section": "8.2 Application",
     "text": "8.2 Application\n\nTopographic mapping: generation of high-resolution topographic maps and elevation data(Geymen 2014; Musa, Popescu, and Mynett 2015).\nEnvironmental monitoring: observation of environmental changes such as changes in forest cover and changes in wetlands(Mitchell, Milne, and Tapley 2015; Adeli et al. 2020).\nAgriculture: Monitor crop growth and farmland management(McNairn and Shang 2016; Liu et al. 2019; Dingle Robertson et al. 2020).\nDisaster management: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides(Singhroy and Molch 2004; Yamaguchi 2012; AlAli and Alabady 2022).\nUrban planning: urban development monitoring and infrastructure planning(Ban and Yousif 2012; Colin Koeniguer and Nicolas 2020; Ahmed, Rabus, and Beg 2020).",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR or Temperature</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#reflection",
     "href": "week9.html#reflection",
-    "title": "8  SAR or Temperature",
+    "title": "8  SAR",
     "section": "8.3 Reflection",
     "text": "8.3 Reflection\nSAR is an active sensor that captures surface texture data and looks through weather conditions and clouds, which is a game-changing concept for me. It opens up a new realm of possibilities, especially in how we observe and interpret the Earth’s surface under different atmospheric conditions. The role of frequency and wavelength in determining image penetration and spatial resolution has fundamentally changed the way I approach remote sensing tasks. It has made me more aware of the need to tailor the selection of SAR data to the specific requirements of a project, taking into account factors such as target characteristics and expected atmospheric conditions\n\n\n\n\nAdeli, Sarina, Bahram Salehi, Masoud Mahdianpari, Lindi J. Quackenbush, Brian Brisco, Haifa Tamiminia, and Stephen Shaw. 2020. “Wetland Monitoring Using SAR Data: A Meta-Analysis and Comprehensive Review.” Remote Sensing 12 (14): 2190. https://doi.org/10.3390/rs12142190.\n\n\nAhmed, Usman Iqbal, Bernhard Rabus, and Mirza Faisal Beg. 2020. “Remote Sensing Technologies and Applications in Urban Environments v.” In, 11535:104–16. SPIE. https://doi.org/10.1117/12.2579480.\n\n\nAlAli, Zahraa Tarik, and Salah Abdulghani Alabady. 2022. “A Survey of Disaster Management and SAR Operations Using Sensors and Supporting Techniques.” International Journal of Disaster Risk Reduction 82 (November): 103295. https://doi.org/10.1016/j.ijdrr.2022.103295.\n\n\nBan, Yifang, and Osama A. Yousif. 2012. “Multitemporal Spaceborne SAR Data for Urban Change Detection in China.” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 5 (4): 1087–94. https://doi.org/10.1109/JSTARS.2012.2201135.\n\n\nColin Koeniguer, Elise, and Jean-Marie Nicolas. 2020. “Change Detection Based on the Coefficient of Variation in SAR Time-Series of Urban Areas.” Remote Sensing 12 (13): 2089. https://doi.org/10.3390/rs12132089.\n\n\nDingle Robertson, Laura, Andrew Davidson, Heather McNairn, Mehdi Hosseini, Scott Mitchell, Diego De Abelleyra, Santiago Verón, and Michael H. Cosh. 2020. “Synthetic Aperture Radar (SAR) Image Processing for Operational Space-Based Agriculture Mapping.” International Journal of Remote Sensing 41 (18): 7112–44. https://doi.org/10.1080/01431161.2020.1754494.\n\n\nGeymen, Abdurrahman. 2014. “Digital Elevation Model (DEM) Generation Using the SAR Interferometry Technique.” Arabian Journal of Geosciences 7 (2): 827–37. https://doi.org/10.1007/s12517-012-0811-3.\n\n\nLiu, Chang-an, Zhong-xin Chen, Yun Shao, Jin-song Chen, Tuya Hasi, and Hai-zhu Pan. 2019. “Research Advances of SAR Remote Sensing for Agriculture Applications: A Review.” Journal of Integrative Agriculture 18 (3): 506–25. https://doi.org/10.1016/S2095-3119(18)62016-7.\n\n\nMcNairn, Heather, and Jiali Shang. 2016. “A Review of Multitemporal Synthetic Aperture Radar (SAR) for Crop Monitoring.” In, edited by Yifang Ban, 317–40. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-47037-5_15.\n\n\nMitchell, A. L., A. K. Milne, and I. Tapley. 2015. “Towards an Operational SAR Monitoring System for Monitoring Environmental Flows in the Macquarie Marshes.” Wetlands Ecology and Management 23 (1): 61–77. https://doi.org/10.1007/s11273-014-9358-2.\n\n\nMusa, Z. N., I. Popescu, and A. Mynett. 2015. “A Review of Applications of Satellite SAR, Optical, Altimetry and DEM Data for Surface Water Modelling, Mapping and Parameter Estimation.” Hydrology and Earth System Sciences 19 (9): 3755–69. https://doi.org/10.5194/hess-19-3755-2015.\n\n\nSinghroy, V, and K Molch. 2004. “Characterizing and Monitoring Rockslides from SAR Techniques.” Advances in Space Research, Monitoring of changes related to natural and manmade hazards using space technology, 33 (3): 290–95. https://doi.org/10.1016/S0273-1177(03)00470-8.\n\n\nYamaguchi, Yoshio. 2012. “Disaster Monitoring by Fully Polarimetric SAR Data Acquired with ALOS-PALSAR.” Proceedings of the IEEE 100 (10): 2851–60. https://doi.org/10.1109/JPROC.2012.2195469.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR or Temperature</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>SAR</span>"
     ]
   },
   {
