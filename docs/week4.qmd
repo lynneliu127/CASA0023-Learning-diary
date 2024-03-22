@@ -41,7 +41,3 @@ The framework provides comprehensive guidelines for managing disaster risk and r
 ## Reflection
 
 The Beijing 2023 floods once again highlighted the importance of remote sensing data in monitoring and managing urban floods. The event provided valuable lessons learned, in particular on how remote sensing can be used to improve flood prevention, response and recovery processes. At the same time, when dealing with geographic issues, we should also take into account relevant international policies, case studies, and scientific planning for urban green spaces, and flood management.
-
-## References
-
-Wang, Z., Li, Z., Wang, Y., Zheng, X., & Deng, X. (2024). Building green infrastructure for mitigating urban flood risk in Beijing, China. Urban Forestry & Urban Greening, 93, 128218-. <https://doi.org/10.1016/j.ufug.2024.128218>
