@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # Classification I
 
 ## Overview {.unnumbered}
@@ -83,3 +87,27 @@ A method used in statistics to estimate the parameters of a model such that the 
 Linear regression, logistic regression, etc., parameters are often estimated by maximum likelihood methods.
 
 ## Application
+
+### Supervised
+
+The Google Earth Engine (GEE) platform was used in both the Amani et al. (2019) and Phan, Kuch, and Lehnert (2020) studies to classify land cover using the Random Forest classifier.The Amani et al. (2019) study specifically focused on the use of GEE in the processing large geographic data and the use of machine learning algorithms to classify wetlands in three Canadian provinces. The methods section details the use of the Random Forest (RF) algorithm for supervised classification. This algorithm was chosen because RF is very efficient when dealing with large datasets and is very robust when dealing with noisy data[@amani2019; @phan2020].
+
+![Provincial wetland inventory maps of three Canadian provinces (a) Manitoba, (b) Newfoundland and Labrador, and (c) Quebec generated using Google Earth Engine.](week7/tbed_a_1690404_f0002_c.jpg){width="40%"}
+
+![The zoomed imagery from the selected areas (i.e. A, B, C), illustrating the visual accuracy of the produced provincial wetland inventory maps.](week7/tbed_a_1690404_f0003_c.jpg){width="30%"}
+
+Both articles use metrics extracted from confusion matrices to assess classification accuracy, such as overall accuracy (oa), user accuracy (ua) and producer accuracy (pa). These metrics provide a standard method for assessing classification quality. The study by Amani et al. (2019) derived overall classification accuracy by generating confusion matrices for each province, with Manitoba, Quebec, and North Holland having 84, 78, and 82 per cent classification accuracy, respectively; Kappa coefficients, overall, producer, and user accuracies were computed based on the confusion matrices. Insight was gained into the classification accuracy of each category[@amani2019].
+
+### Unsupervised
+
+Unsupervised clustering was combined with supervised machine learning (ML) algorithms in the Bar, Parida, and Pandey (2020) study to identify pre-monsoon forest fire patches using medium resolution optical satellite data from Landsat-8 and Sentinel-2. Unsupervised clustering was applied to a combination of differential spectral indices (dNBR, dNDVI, dNDWI, and dSWIR) to depict potential burn areas. The resulting clusters help identify burn suspected classes and collect training samples for subsequent supervised classification[@bar2020].
+
+![MCD64A1 based on thermal principles (fire radiated power) and burnt spots from Weka clustering of fire suspected clusters](week7/1-s2.0-S2352938520300100-gr3_lrg.jpg){fig-align="center" width="100%"}
+
+Unsupervised classification acts as a preprocessing step that helps to narrow down the area that supervised learning algorithms need to focus on and improves the quality of the training samples. It has been shown that combining unsupervised clustering with supervised algorithms (CART, RF, SVM) on GEE can be effective in identifying burnt areas. This combination of unsupervised and supervised learning enhances the accuracy and efficiency of fire-burned trace identification, especially when dealing with large-scale and high-complexity remote sensing data [@bar2020].
+
+## Reflection
+
+During my intensive use of supervised and unsupervised classification methods to analyse remotely sensed data, I have come to appreciate the respective strengths and challenges of the two techniques. Supervised classification granted me a high degree of accuracy, especially when I had sufficient and high-quality training data. However, I also realised that this approach is extremely reliant on training data, and that accessing this data is sometimes both difficult and resource intensive. In terms of unsupervised classification, I was attracted to its ability to reveal patterns inherent in the data without preset categories. It relieves me of the labelling effort required prior to supervised learning, although this approach sometimes produces classification results that are difficult to interpret.
+
+Combining these two approaches, I found unsupervised learning to be an excellent preprocessing step that helped me identify noteworthy data patterns and provided insights for subsequent supervised learning. This combined strategy not only enhanced the performance of the model, but also provided flexibility and depth to my work on large-scale remote sensing datasets. Through this process, I have become more aware of how critical it is to understand the data characteristics, clearly define the problem, and select the appropriate approach when working with complex remote sensing data. This experience has reinforced my commitment and ability to continually explore and adapt to new technologies to improve our understanding of remote sensing data.

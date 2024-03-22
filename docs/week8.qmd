@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # Classification II
 
 ## Overview {.unnumbered}
@@ -99,3 +103,15 @@
     -   Remote Sensing Image Classification (RSIC): Evaluates image classification models in different geographic regions to ensure the validity of the models in brand new regions.
 
 ## Application
+
+The application of Object-Based Image Analysis (OBIA) within the framework of Google Earth Engine (GEE) provides a nuanced understanding of the potential and complexity involved in modern remote sensing techniques. The advantages of OBIA in dealing with the spatial heterogeneity and complex morphology of urban landscapes are demonstrated by exploring the integration of high-resolution satellite data from Sentinel-1, Sentinel-2, and PlanetScope into maps of informal settlements. The importance of understanding the impact of these choices on the final classification output through the selection of appropriate segmentation parameters and the The segmentation process, which clusters pixels into meaningful objects, is key to determining the accuracy of subsequent classifications[@bar2020].
+
+![LULC object-based classification maps using combined PL, S2 and S1 data](week8/land-12-00099-g003.webp)
+
+In addition, the study integrates texture analyses and spectral data within the OBIA framework, highlighting the potential for improved classification results. Textural features can provide additional contextual information, which is particularly valuable in urban environments where the structural complexity of the landscape can confound traditional classification methods. Essentially, my experience of using OBIA in GEE reinforces my understanding that whilst this approach provides a powerful toolkit for detailed and nuanced land cover mapping, it requires a deep understanding of both the data and the underlying algorithms.
+
+## Reflection
+
+I came to appreciate the complexity and nuanced expertise of the field by understanding how Earth Observation (EO) data is considered and processed. Delving into pixel-based analysis and object-based image analysis (OBIA), I realised the importance of choosing the right approach based on the specific characteristics of the data and research objectives. Learning the various strategies for assessing the accuracy of classification models was particularly enlightening. It is not just about applying the methods, but also about understanding the rationale behind each method and how they contribute to the robustness of the model. Experimenting with cross-validation techniques (e.g., k-fold and LOOCV) made me realise the importance of thorough model evaluation to ensure that the models I created not only handled my data well, but were truly predictive and reliable.
+
+The practical application of metrics such as confusion matrices, precision, recall and F1 scores transformed from theoretical concepts to tools that enhanced my analytical skills and provided me with a clear lens through which I could evaluate and refine my models. The exploration of ROC curves and Kappa coefficients further deepened my understanding of model performance evaluation, providing a comprehensive view of accuracy, not just percentage correct.

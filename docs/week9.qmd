@@ -1,3 +1,7 @@
+---
+bibliography: references.bib
+---
+
 # SAR or Temperature
 
 ## Overview {.unnumbered}
@@ -36,13 +40,12 @@
 
 ## Application
 
-1.  **Topographic mapping**: generation of high-resolution topographic maps and elevation data.
-2.  **Environmental monitoring**: observation of environmental changes such as changes in forest cover and changes in wetlands.
-3.  **Agriculture**: Monitor crop growth and farmland management.
-4.  **Disaster management**: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides.
-5.  **Urban planning**: urban development monitoring and infrastructure planning.
-6.  **Glacier and polar monitoring**: study of glacier movement and melting, and environmental changes in the polar regions.
+1.  **Topographic mapping**: generation of high-resolution topographic maps and elevation data[@geymen2014; @musa2015].
+2.  **Environmental monitoring**: observation of environmental changes such as changes in forest cover and changes in wetlands[@mitchell2015; @adeli2020].
+3.  **Agriculture**: Monitor crop growth and farmland management[@mcnairn2016; @liu2019; @dinglerobertson2020].
+4.  **Disaster management**: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides[@singhroy2004; @yamaguchi2012; @alali2022].
+5.  **Urban planning**: urban development monitoring and infrastructure planning[@ban2012; @colinkoeniguer2020; @ahmed2020].
 
 ## Reflection
 
-## References
+SAR is an active sensor that captures surface texture data and looks through weather conditions and clouds, which is a game-changing concept for me. It opens up a new realm of possibilities, especially in how we observe and interpret the Earth's surface under different atmospheric conditions. The role of frequency and wavelength in determining image penetration and spatial resolution has fundamentally changed the way I approach remote sensing tasks. It has made me more aware of the need to tailor the selection of SAR data to the specific requirements of a project, taking into account factors such as target characteristics and expected atmospheric conditions

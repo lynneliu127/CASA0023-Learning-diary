@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -220,7 +240,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SAR or Temperature</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -248,6 +268,7 @@ window.Quarto = {
   <li><a href="#when-training-and-testing-our-classification-models-do-we-need-to-consider-spatial-autocorrelation" id="toc-when-training-and-testing-our-classification-models-do-we-need-to-consider-spatial-autocorrelation" class="nav-link" data-scroll-target="#when-training-and-testing-our-classification-models-do-we-need-to-consider-spatial-autocorrelation"><span class="header-section-number">7.1.4</span> When training and testing our classification models do we need to consider spatial autocorrelation?</a></li>
   </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">7.2</span> Application</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">7.3</span> Reflection</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -347,8 +368,26 @@ F1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \t
 </section>
 <section id="application" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="application"><span class="header-section-number">7.2</span> Application</h2>
+<p>The application of Object-Based Image Analysis (OBIA) within the framework of Google Earth Engine (GEE) provides a nuanced understanding of the potential and complexity involved in modern remote sensing techniques. The advantages of OBIA in dealing with the spatial heterogeneity and complex morphology of urban landscapes are demonstrated by exploring the integration of high-resolution satellite data from Sentinel-1, Sentinel-2, and PlanetScope into maps of informal settlements. The importance of understanding the impact of these choices on the final classification output through the selection of appropriate segmentation parameters and the The segmentation process, which clusters pixels into meaningful objects, is key to determining the accuracy of subsequent classifications<span class="citation" data-cites="bar2020">(<a href="references.html#ref-bar2020" role="doc-biblioref">Bar, Parida, and Pandey 2020</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week8/land-12-00099-g003.webp" class="img-fluid figure-img"></p>
+<figcaption>LULC object-based classification maps using combined PL, S2 and S1 data</figcaption>
+</figure>
+</div>
+<p>In addition, the study integrates texture analyses and spectral data within the OBIA framework, highlighting the potential for improved classification results. Textural features can provide additional contextual information, which is particularly valuable in urban environments where the structural complexity of the landscape can confound traditional classification methods. Essentially, my experience of using OBIA in GEE reinforces my understanding that whilst this approach provides a powerful toolkit for detailed and nuanced land cover mapping, it requires a deep understanding of both the data and the underlying algorithms.</p>
+</section>
+<section id="reflection" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">7.3</span> Reflection</h2>
+<p>I came to appreciate the complexity and nuanced expertise of the field by understanding how Earth Observation (EO) data is considered and processed. Delving into pixel-based analysis and object-based image analysis (OBIA), I realised the importance of choosing the right approach based on the specific characteristics of the data and research objectives. Learning the various strategies for assessing the accuracy of classification models was particularly enlightening. It is not just about applying the methods, but also about understanding the rationale behind each method and how they contribute to the robustness of the model. Experimenting with cross-validation techniques (e.g., k-fold and LOOCV) made me realise the importance of thorough model evaluation to ensure that the models I created not only handled my data well, but were truly predictive and reliable.</p>
+<p>The practical application of metrics such as confusion matrices, precision, recall and F1 scores transformed from theoretical concepts to tools that enhanced my analytical skills and provided me with a clear lens through which I could evaluate and refine my models. The exploration of ROC curves and Kappa coefficients further deepened my understanding of model performance evaluation, providing a comprehensive view of accuracy, not just percentage correct.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-bar2020" class="csl-entry" role="listitem">
+Bar, Somnath, Bikash Ranjan Parida, and Arvind Chandra Pandey. 2020. <span>“Landsat-8 and Sentinel-2 Based Forest Fire Burn Area Mapping Using Machine Learning Algorithms on GEE Cloud Platform over Uttarakhand, Western Himalaya.”</span> <em>Remote Sensing Applications: Society and Environment</em> 18 (April): 100324. <a href="https://doi.org/10.1016/j.rsase.2020.100324">https://doi.org/10.1016/j.rsase.2020.100324</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -746,8 +785,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week9.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Week9-SAR or Temperature</span>">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week9-SAR or Temperature</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week9.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>SAR or Temperature</span>">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">SAR or Temperature</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

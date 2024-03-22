@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -218,7 +238,12 @@ background-size: cover;
   <li><a href="#unsupervised" id="toc-unsupervised" class="nav-link" data-scroll-target="#unsupervised"><span class="header-section-number">6.1.3</span> Unsupervised</a></li>
   <li><a href="#maximum-likelihood-estimationmle" id="toc-maximum-likelihood-estimationmle" class="nav-link" data-scroll-target="#maximum-likelihood-estimationmle"><span class="header-section-number">6.1.4</span> Maximum Likelihood Estimation(MLE)</a></li>
   </ul></li>
-  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a></li>
+  <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">6.2</span> Application</a>
+  <ul class="collapse">
+  <li><a href="#supervised-1" id="toc-supervised-1" class="nav-link" data-scroll-target="#supervised-1"><span class="header-section-number">6.2.1</span> Supervised</a></li>
+  <li><a href="#unsupervised-1" id="toc-unsupervised-1" class="nav-link" data-scroll-target="#unsupervised-1"><span class="header-section-number">6.2.2</span> Unsupervised</a></li>
+  </ul></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">6.3</span> Reflection</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -306,8 +331,52 @@ background-size: cover;
 </section>
 <section id="application" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="application"><span class="header-section-number">6.2</span> Application</h2>
+<section id="supervised-1" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="supervised-1"><span class="header-section-number">6.2.1</span> Supervised</h3>
+<p>The Google Earth Engine (GEE) platform was used in both the Amani et al.&nbsp;(2019) and Phan, Kuch, and Lehnert (2020) studies to classify land cover using the Random Forest classifier.The Amani et al.&nbsp;(2019) study specifically focused on the use of GEE in the processing large geographic data and the use of machine learning algorithms to classify wetlands in three Canadian provinces. The methods section details the use of the Random Forest (RF) algorithm for supervised classification. This algorithm was chosen because RF is very efficient when dealing with large datasets and is very robust when dealing with noisy data<span class="citation" data-cites="amani2019 phan2020">(<a href="references.html#ref-amani2019" role="doc-biblioref">Amani et al. 2019</a>; <a href="references.html#ref-phan2020" role="doc-biblioref">Phan, Kuch, and Lehnert 2020</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week7/tbed_a_1690404_f0002_c.jpg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Provincial wetland inventory maps of three Canadian provinces (a) Manitoba, (b) Newfoundland and Labrador, and (c) Quebec generated using Google Earth Engine.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week7/tbed_a_1690404_f0003_c.jpg" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>The zoomed imagery from the selected areas (i.e.&nbsp;A, B, C), illustrating the visual accuracy of the produced provincial wetland inventory maps.</figcaption>
+</figure>
+</div>
+<p>Both articles use metrics extracted from confusion matrices to assess classification accuracy, such as overall accuracy (oa), user accuracy (ua) and producer accuracy (pa). These metrics provide a standard method for assessing classification quality. The study by Amani et al.&nbsp;(2019) derived overall classification accuracy by generating confusion matrices for each province, with Manitoba, Quebec, and North Holland having 84, 78, and 82 per cent classification accuracy, respectively; Kappa coefficients, overall, producer, and user accuracies were computed based on the confusion matrices. Insight was gained into the classification accuracy of each category<span class="citation" data-cites="amani2019">(<a href="references.html#ref-amani2019" role="doc-biblioref">Amani et al. 2019</a>)</span>.</p>
+</section>
+<section id="unsupervised-1" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="unsupervised-1"><span class="header-section-number">6.2.2</span> Unsupervised</h3>
+<p>Unsupervised clustering was combined with supervised machine learning (ML) algorithms in the Bar, Parida, and Pandey (2020) study to identify pre-monsoon forest fire patches using medium resolution optical satellite data from Landsat-8 and Sentinel-2. Unsupervised clustering was applied to a combination of differential spectral indices (dNBR, dNDVI, dNDWI, and dSWIR) to depict potential burn areas. The resulting clusters help identify burn suspected classes and collect training samples for subsequent supervised classification<span class="citation" data-cites="bar2020">(<a href="references.html#ref-bar2020" role="doc-biblioref">Bar, Parida, and Pandey 2020</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="week7/1-s2.0-S2352938520300100-gr3_lrg.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+<figcaption>MCD64A1 based on thermal principles (fire radiated power) and burnt spots from Weka clustering of fire suspected clusters</figcaption>
+</figure>
+</div>
+<p>Unsupervised classification acts as a preprocessing step that helps to narrow down the area that supervised learning algorithms need to focus on and improves the quality of the training samples. It has been shown that combining unsupervised clustering with supervised algorithms (CART, RF, SVM) on GEE can be effective in identifying burnt areas. This combination of unsupervised and supervised learning enhances the accuracy and efficiency of fire-burned trace identification, especially when dealing with large-scale and high-complexity remote sensing data <span class="citation" data-cites="bar2020">(<a href="references.html#ref-bar2020" role="doc-biblioref">Bar, Parida, and Pandey 2020</a>)</span>.</p>
+</section>
+</section>
+<section id="reflection" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">6.3</span> Reflection</h2>
+<p>During my intensive use of supervised and unsupervised classification methods to analyse remotely sensed data, I have come to appreciate the respective strengths and challenges of the two techniques. Supervised classification granted me a high degree of accuracy, especially when I had sufficient and high-quality training data. However, I also realised that this approach is extremely reliant on training data, and that accessing this data is sometimes both difficult and resource intensive. In terms of unsupervised classification, I was attracted to its ability to reveal patterns inherent in the data without preset categories. It relieves me of the labelling effort required prior to supervised learning, although this approach sometimes produces classification results that are difficult to interpret.</p>
+<p>Combining these two approaches, I found unsupervised learning to be an excellent preprocessing step that helped me identify noteworthy data patterns and provided insights for subsequent supervised learning. This combined strategy not only enhanced the performance of the model, but also provided flexibility and depth to my work on large-scale remote sensing datasets. Through this process, I have become more aware of how critical it is to understand the data characteristics, clearly define the problem, and select the appropriate approach when working with complex remote sensing data. This experience has reinforced my commitment and ability to continually explore and adapt to new technologies to improve our understanding of remote sensing data.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-amani2019" class="csl-entry" role="listitem">
+Amani, Meisam, Brian Brisco, Majid Afshar, S. Mohammad Mirmazloumi, Sahel Mahdavi, Sayyed Mohammad Javad Mirzadeh, Weimin Huang, and Jean Granger. 2019. <span>“A Generalized Supervised Classification Scheme to Produce Provincial Wetland Inventory Maps: An Application of Google Earth Engine for Big Geo Data Processing.”</span> <em>Big Earth Data</em> 3 (4): 378–94. <a href="https://doi.org/10.1080/20964471.2019.1690404">https://doi.org/10.1080/20964471.2019.1690404</a>.
+</div>
+<div id="ref-bar2020" class="csl-entry" role="listitem">
+Bar, Somnath, Bikash Ranjan Parida, and Arvind Chandra Pandey. 2020. <span>“Landsat-8 and Sentinel-2 Based Forest Fire Burn Area Mapping Using Machine Learning Algorithms on GEE Cloud Platform over Uttarakhand, Western Himalaya.”</span> <em>Remote Sensing Applications: Society and Environment</em> 18 (April): 100324. <a href="https://doi.org/10.1016/j.rsase.2020.100324">https://doi.org/10.1016/j.rsase.2020.100324</a>.
+</div>
+<div id="ref-phan2020" class="csl-entry" role="listitem">
+Phan, Thanh Noi, Verena Kuch, and Lukas W. Lehnert. 2020. <span>“Land Cover Classification Using Google Earth Engine and Random Forest Classifier<span></span>The Role of Image Composition.”</span> <em>Remote Sensing</em> 12 (15): 2411. <a href="https://doi.org/10.3390/rs12152411">https://doi.org/10.3390/rs12152411</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

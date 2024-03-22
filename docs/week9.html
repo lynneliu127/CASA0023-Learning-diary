@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -218,7 +238,6 @@ background-size: cover;
   </ul></li>
   <li><a href="#application" id="toc-application" class="nav-link" data-scroll-target="#application"><span class="header-section-number">8.2</span> Application</a></li>
   <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">8.3</span> Reflection</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.4</span> References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/lynneliu127/CASA0023-Learning-diary.git/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -270,21 +289,59 @@ background-size: cover;
 <section id="application" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="application"><span class="header-section-number">8.2</span> Application</h2>
 <ol type="1">
-<li><strong>Topographic mapping</strong>: generation of high-resolution topographic maps and elevation data.</li>
-<li><strong>Environmental monitoring</strong>: observation of environmental changes such as changes in forest cover and changes in wetlands.</li>
-<li><strong>Agriculture</strong>: Monitor crop growth and farmland management.</li>
-<li><strong>Disaster management</strong>: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides.</li>
-<li><strong>Urban planning</strong>: urban development monitoring and infrastructure planning.</li>
-<li><strong>Glacier and polar monitoring</strong>: study of glacier movement and melting, and environmental changes in the polar regions.</li>
+<li><strong>Topographic mapping</strong>: generation of high-resolution topographic maps and elevation data<span class="citation" data-cites="geymen2014 musa2015">(<a href="references.html#ref-geymen2014" role="doc-biblioref">Geymen 2014</a>; <a href="references.html#ref-musa2015" role="doc-biblioref">Musa, Popescu, and Mynett 2015</a>)</span>.</li>
+<li><strong>Environmental monitoring</strong>: observation of environmental changes such as changes in forest cover and changes in wetlands<span class="citation" data-cites="mitchell2015 adeli2020">(<a href="references.html#ref-mitchell2015" role="doc-biblioref">Mitchell, Milne, and Tapley 2015</a>; <a href="references.html#ref-adeli2020" role="doc-biblioref">Adeli et al. 2020</a>)</span>.</li>
+<li><strong>Agriculture</strong>: Monitor crop growth and farmland management<span class="citation" data-cites="mcnairn2016 liu2019 dinglerobertson2020">(<a href="references.html#ref-mcnairn2016" role="doc-biblioref">McNairn and Shang 2016</a>; <a href="references.html#ref-liu2019" role="doc-biblioref">Liu et al. 2019</a>; <a href="references.html#ref-dinglerobertson2020" role="doc-biblioref">Dingle Robertson et al. 2020</a>)</span>.</li>
+<li><strong>Disaster management</strong>: keep abreast of surface changes after natural disasters such as floods, earthquakes and landslides<span class="citation" data-cites="singhroy2004 yamaguchi2012 alali2022">(<a href="references.html#ref-singhroy2004" role="doc-biblioref">Singhroy and Molch 2004</a>; <a href="references.html#ref-yamaguchi2012" role="doc-biblioref">Yamaguchi 2012</a>; <a href="references.html#ref-alali2022" role="doc-biblioref">AlAli and Alabady 2022</a>)</span>.</li>
+<li><strong>Urban planning</strong>: urban development monitoring and infrastructure planning<span class="citation" data-cites="ban2012 colinkoeniguer2020 ahmed2020">(<a href="references.html#ref-ban2012" role="doc-biblioref">Ban and Yousif 2012</a>; <a href="references.html#ref-colinkoeniguer2020" role="doc-biblioref">Colin Koeniguer and Nicolas 2020</a>; <a href="references.html#ref-ahmed2020" role="doc-biblioref">Ahmed, Rabus, and Beg 2020</a>)</span>.</li>
 </ol>
 </section>
 <section id="reflection" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">8.3</span> Reflection</h2>
-</section>
-<section id="references" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
+<p>SAR is an active sensor that captures surface texture data and looks through weather conditions and clouds, which is a game-changing concept for me. It opens up a new realm of possibilities, especially in how we observe and interpret the Earth’s surface under different atmospheric conditions. The role of frequency and wavelength in determining image penetration and spatial resolution has fundamentally changed the way I approach remote sensing tasks. It has made me more aware of the need to tailor the selection of SAR data to the specific requirements of a project, taking into account factors such as target characteristics and expected atmospheric conditions</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-adeli2020" class="csl-entry" role="listitem">
+Adeli, Sarina, Bahram Salehi, Masoud Mahdianpari, Lindi J. Quackenbush, Brian Brisco, Haifa Tamiminia, and Stephen Shaw. 2020. <span>“Wetland Monitoring Using SAR Data: A Meta-Analysis and Comprehensive Review.”</span> <em>Remote Sensing</em> 12 (14): 2190. <a href="https://doi.org/10.3390/rs12142190">https://doi.org/10.3390/rs12142190</a>.
+</div>
+<div id="ref-ahmed2020" class="csl-entry" role="listitem">
+Ahmed, Usman Iqbal, Bernhard Rabus, and Mirza Faisal Beg. 2020. <span>“Remote Sensing Technologies and Applications in Urban Environments v.”</span> In, 11535:104–16. SPIE. <a href="https://doi.org/10.1117/12.2579480">https://doi.org/10.1117/12.2579480</a>.
+</div>
+<div id="ref-alali2022" class="csl-entry" role="listitem">
+AlAli, Zahraa Tarik, and Salah Abdulghani Alabady. 2022. <span>“A Survey of Disaster Management and SAR Operations Using Sensors and Supporting Techniques.”</span> <em>International Journal of Disaster Risk Reduction</em> 82 (November): 103295. <a href="https://doi.org/10.1016/j.ijdrr.2022.103295">https://doi.org/10.1016/j.ijdrr.2022.103295</a>.
+</div>
+<div id="ref-ban2012" class="csl-entry" role="listitem">
+Ban, Yifang, and Osama A. Yousif. 2012. <span>“Multitemporal Spaceborne SAR Data for Urban Change Detection in China.”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em> 5 (4): 1087–94. <a href="https://doi.org/10.1109/JSTARS.2012.2201135">https://doi.org/10.1109/JSTARS.2012.2201135</a>.
+</div>
+<div id="ref-colinkoeniguer2020" class="csl-entry" role="listitem">
+Colin Koeniguer, Elise, and Jean-Marie Nicolas. 2020. <span>“Change Detection Based on the Coefficient of Variation in SAR Time-Series of Urban Areas.”</span> <em>Remote Sensing</em> 12 (13): 2089. <a href="https://doi.org/10.3390/rs12132089">https://doi.org/10.3390/rs12132089</a>.
+</div>
+<div id="ref-dinglerobertson2020" class="csl-entry" role="listitem">
+Dingle Robertson, Laura, Andrew Davidson, Heather McNairn, Mehdi Hosseini, Scott Mitchell, Diego De Abelleyra, Santiago Verón, and Michael H. Cosh. 2020. <span>“Synthetic Aperture Radar (SAR) Image Processing for Operational Space-Based Agriculture Mapping.”</span> <em>International Journal of Remote Sensing</em> 41 (18): 7112–44. <a href="https://doi.org/10.1080/01431161.2020.1754494">https://doi.org/10.1080/01431161.2020.1754494</a>.
+</div>
+<div id="ref-geymen2014" class="csl-entry" role="listitem">
+Geymen, Abdurrahman. 2014. <span>“Digital Elevation Model (DEM) Generation Using the SAR Interferometry Technique.”</span> <em>Arabian Journal of Geosciences</em> 7 (2): 827–37. <a href="https://doi.org/10.1007/s12517-012-0811-3">https://doi.org/10.1007/s12517-012-0811-3</a>.
+</div>
+<div id="ref-liu2019" class="csl-entry" role="listitem">
+Liu, Chang-an, Zhong-xin Chen, Yun Shao, Jin-song Chen, Tuya Hasi, and Hai-zhu Pan. 2019. <span>“Research Advances of SAR Remote Sensing for Agriculture Applications: A Review.”</span> <em>Journal of Integrative Agriculture</em> 18 (3): 506–25. <a href="https://doi.org/10.1016/S2095-3119(18)62016-7">https://doi.org/10.1016/S2095-3119(18)62016-7</a>.
+</div>
+<div id="ref-mcnairn2016" class="csl-entry" role="listitem">
+McNairn, Heather, and Jiali Shang. 2016. <span>“A Review of Multitemporal Synthetic Aperture Radar (SAR) for Crop Monitoring.”</span> In, edited by Yifang Ban, 317–40. Cham: Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-47037-5_15">https://doi.org/10.1007/978-3-319-47037-5_15</a>.
+</div>
+<div id="ref-mitchell2015" class="csl-entry" role="listitem">
+Mitchell, A. L., A. K. Milne, and I. Tapley. 2015. <span>“Towards an Operational SAR Monitoring System for Monitoring Environmental Flows in the Macquarie Marshes.”</span> <em>Wetlands Ecology and Management</em> 23 (1): 61–77. <a href="https://doi.org/10.1007/s11273-014-9358-2">https://doi.org/10.1007/s11273-014-9358-2</a>.
+</div>
+<div id="ref-musa2015" class="csl-entry" role="listitem">
+Musa, Z. N., I. Popescu, and A. Mynett. 2015. <span>“A Review of Applications of Satellite SAR, Optical, Altimetry and DEM Data for Surface Water Modelling, Mapping and Parameter Estimation.”</span> <em>Hydrology and Earth System Sciences</em> 19 (9): 3755–69. <a href="https://doi.org/10.5194/hess-19-3755-2015">https://doi.org/10.5194/hess-19-3755-2015</a>.
+</div>
+<div id="ref-singhroy2004" class="csl-entry" role="listitem">
+Singhroy, V, and K Molch. 2004. <span>“Characterizing and Monitoring Rockslides from SAR Techniques.”</span> <em>Advances in Space Research</em>, Monitoring of changes related to natural and manmade hazards using space technology, 33 (3): 290–95. <a href="https://doi.org/10.1016/S0273-1177(03)00470-8">https://doi.org/10.1016/S0273-1177(03)00470-8</a>.
+</div>
+<div id="ref-yamaguchi2012" class="csl-entry" role="listitem">
+Yamaguchi, Yoshio. 2012. <span>“Disaster Monitoring by Fully Polarimetric SAR Data Acquired with ALOS-PALSAR.”</span> <em>Proceedings of the IEEE</em> 100 (10): 2851–60. <a href="https://doi.org/10.1109/JPROC.2012.2195469">https://doi.org/10.1109/JPROC.2012.2195469</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
